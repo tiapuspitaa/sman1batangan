@@ -707,6 +707,8 @@
 
 <div class="py-5 bg-white">
     <div class="container">
+<div id="kontak" class="py-5 bg-white" style="scroll-margin-top: 80px;">
+    <div class="container position-relative">
         
         <div class="text-center mb-5">
             <h3 class="fw-bold text-uppercase" style="color: #102a43;">Hubungi Kami</h3>
