@@ -708,7 +708,7 @@
 <div id="kontak" class="py-5 bg-white" style="scroll-margin-top: 80px;">
     <div class="container position-relative">
         
-        <div class="text-center mb-5">
+        <div class="text-center mb-3">
             <h3 class="fw-bold text-uppercase" style="color: #102a43;">Hubungi Kami</h3>
             <div style="width: 60px; height: 3px; background-color: #ffc107; margin: 10px auto;"></div>
         </div>
@@ -719,8 +719,13 @@
                 <h5 class="fw-bold mb-3" style="color: #102a43;">Denah Lokasi</h5>
                 <div class="shadow-sm p-1 bg-white border rounded">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.267803666286!2d111.1788!3d-6.8585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7737e6f8515c3d%3A0x6a1005167554f60!2sSMA%20Negeri%201%20Batangan!5e0!3m2!1sid!2sid!4v1689000000000!5m2!1sid!2sid" 
-                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        width="100%" 
+                        height="350" 
+                        style="border:0;" 
+                        loading="lazy" 
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://maps.google.com/maps?q=SMA%20Negeri%201%20Batangan%2C%20Jl.%20Raya%20Juwana%20-%20Rembang%2C%20Jembangan%2C%20Kec.%20Batangan%2C%20Kabupaten%20Pati%2C%20Jawa%20Tengah%2059186&t=&z=15&ie=UTF8&iwloc=&output=embed">
                     </iframe>
                 </div>
             </div>
@@ -728,10 +733,6 @@
             <div class="col-md-6 mb-4 ps-md-5">
                 <h5 class="fw-bold mb-4" style="color: #102a43;">Kontak</h5>
                 
-                <div class="mb-4">
-                    <h6 class="fw-bold text-dark">SMA NEGERI 1 BATANGAN</h6>
-                    <p class="text-muted small">Mewujudkan generasi yang unggul, berkarakter, dan berwawasan global.</p>
-                </div>
 
                 <div class="d-flex mb-3 align-items-start">
                     <div class="me-3 text-center" style="width: 30px;">
