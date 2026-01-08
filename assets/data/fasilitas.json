@@ -1,0 +1,26 @@
+[
+    {
+        "nama": "Lab Komputer",
+        "gambar": "fasilitas1.jpg"
+    },
+    {
+        "nama": "Lab Biologi",
+        "gambar": "fasilitas2.jpg"
+    },
+    {
+        "nama": "Lab Kimia",
+        "gambar": "fasilitas3.jpg"
+    },
+    {
+        "nama": "Perpustakaan",
+        "gambar": "fasilitas4.jpg"
+    },
+    {
+        "nama": "Aula",
+        "gambar": "fasilitas5.jpg"
+    },
+    {
+        "nama": "Lab Bahasa",
+        "gambar": "fasilitas6.jpg"
+    }
+]

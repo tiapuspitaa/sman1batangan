@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "nama": "PRAMUKA",
+        "deskripsi": "Kegiatan kepramukaan untuk membentuk karakter, kedisiplinan, dan jiwa kepemimpinan siswa.",
+        "kontak": "Pak Budi (0812-3456-7890)",
+        "gambar": "ekskul1.jpg"
+    },
+    {
+        "id": 2,
+        "nama": "BASKET",
+        "deskripsi": "Ekstrakurikuler bola basket melatih kerjasama tim, fisik, dan strategi permainan yang sportif.",
+        "kontak": "Bu Sinta (0899-8877-6655)",
+        "gambar": "ekskul2.jpg"
+    },
+    {
+        "id": 3,
+        "nama": "PASKIBRA",
+        "deskripsi": "Pasukan pengibar bendera pusaka dengan kedisiplinan tinggi.",
+        "kontak": "Bu Ayu (0813-4567-8901)",
+        "gambar": "ekskul3.jpg"
+    },
+    {
+        
+        "id": 4,
+        "nama": "PALANG MERAH REMAJA",
+        "deskripsi": "Palang Merah Remaja melatih keterampilan pertolongan pertama dan kepedulian sosial terhadap sesama.",
+        "kontak": "Pak Joko (0856-7890-1234)",
+        "gambar": "ekskul4.jpg"
+    },
+    {
+        "id": 5,
+        "nama": "MUSIK",
+        "deskripsi": "Melatih agar keterampilan musik semakin meningkat.",
+        "kontak": "Pak Ahmad (0821-1122-3344)",
+        "gambar": "ekskul5.jpg"
+    },
+    {
+        "id": 6,
+        "nama": "SENI TARI",
+        "deskripsi": "Melestarikan budaya tradisional melalui seni tari daerah.",
+        "kontak": "Bu Rina (0877-6655-4433)",
+        "gambar": "ekskul6.jpg"
+    }
+]

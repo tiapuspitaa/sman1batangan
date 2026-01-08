@@ -1,0 +1,58 @@
+[
+    {
+        "judul": "BENANG MERAH SEPANGGAL DETIK",
+        "siswa": "Tia Puspita Sari / XII IPA",
+        "kategori": "Puisi",
+        "tanggal": "13 November 2025",
+        "gambar": "publikasi1.jpg"
+    },
+    {
+        "judul": "PEMANDANGAN GUNUNG MALAM HARI",
+        "siswa": "Luvina Agita Rani / XI IPS",
+        "kategori": "Lukisan",
+        "tanggal": "04 Desember 2025",
+        "gambar": "publikasi2.jpg"
+    },
+    {
+        "judul": "MAKET RUMAH KAYU MINIMALIS",
+        "siswa": "Axel Candra Adi / X",
+        "kategori": "Kerajinan Tangan",
+        "tanggal": "25 Desember 2025",
+        "gambar": "publikasi3.jpg"
+    },
+    {
+        "judul": "POSTER HARI GURU NASIONAL",
+        "siswa": "Akbar Ibrahim / XII IPA",
+        "kategori": "Poster Digital",
+        "tanggal": "25 November 2025",
+        "gambar": "publikasi4.jpg"
+    },
+    {
+        "judul": "SKETSA WAJAH PAHLAWAN",
+        "siswa": "Budi Santoso / XI IPA",
+        "kategori": "Sketsa",
+        "tanggal": "10 November 2025",
+        "gambar": "karya_sketsa.jpg"
+    },
+    {
+        "judul": "BATIK JUMPUTAN KONTEMPORER",
+        "siswa": "Siti Aminah / XII IPS",
+        "kategori": "Kriya Tekstil",
+        "tanggal": "02 Oktober 2025",
+        "gambar": "karya_batik.jpg"
+    },
+    {
+        "judul": "KALIGRAFI KONTEMPORER",
+        "siswa": "Rahmat Hidayat / X",
+        "kategori": "Seni Rupa",
+        "tanggal": "15 September 2025",
+        "gambar": "karya_kaligrafi.jpg"
+    },
+    {
+        "judul": "FOTOGRAFI HUMAN INTEREST",
+        "siswa": "Dewi Sartika / XI Bahasa",
+        "kategori": "Fotografi",
+        "tanggal": "17 Agustus 2025",
+        "gambar": "karya_foto.jpg"
+    }
+]
