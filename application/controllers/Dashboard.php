@@ -294,23 +294,23 @@ class Dashboard extends CI_Controller {
         }
 
         // 2. Pagination Logic
-        $per_page = 4; // Menampilkan 4 Karya per halaman (atau 8 agar terlihat banyak)
+        // REVISI: Ubah menjadi 12 agar tampil 4 kolom x 3 baris
+        $per_page = 12; 
+        
         $data['current_page'] = $page;
         $data['total_pages'] = ceil(count($semua_karya) / $per_page);
         
-        // Validasi halaman
         if ($data['total_pages'] > 0 && $page > $data['total_pages']) {
             $page = $data['total_pages']; 
         }
         $offset = ($page - 1) * $per_page;
         if ($offset < 0) $offset = 0;
 
-        // Ambil data sesuai halaman
         $data['data_karya'] = array_slice($semua_karya, $offset, $per_page);
 
         // 3. Load View
         $this->load->view('layout/header', $data);
-        $this->load->view('karya_murid_view', $data); // Kita buat view ini sekarang
+        $this->load->view('karya_murid_view', $data);
         $this->load->view('layout/footer');
     }
     public function prestasi($page = 1, $kategori = 'semua')
