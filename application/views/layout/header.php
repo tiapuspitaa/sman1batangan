@@ -184,6 +184,11 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
         <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('#kontak') ?>">Kontak</a></li>
 
+=======
+        <li class="nav-item">
+    <a class="nav-link fw-bold" href="<?= base_url() ?>#kontak">KONTAK</a>
+</li>
+>>>>>>> a3fa81c17a1a2f18ea093d3e57f9277cd010dd4a
       </ul>
     </div>
   </div>
