@@ -180,6 +180,7 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
         <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/karya_murid') ?>">Karya Murid</a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/prestasi') ?>">Prestasi</a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/alumni') ?>">Alumni</a></li>
+<<<<<<< HEAD
         <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('#kontak') ?>">Kontak</a></li>
 

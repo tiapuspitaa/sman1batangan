@@ -387,4 +387,37 @@ class Dashboard extends CI_Controller {
         $this->load->view('detail_prestasi_view', $data);
         $this->load->view('layout/footer');
     }
+
+    public function alumni($page = 1)
+    {
+        $data['is_home'] = false;
+        
+        // 1. Load Data JSON
+        $json_path = FCPATH . 'assets/data/alumni.json';
+        $semua_alumni = [];
+        
+        if (file_exists($json_path)) {
+            $json_data = file_get_contents($json_path);
+            $semua_alumni = json_decode($json_data, true);
+        }
+
+        // 2. Pagination Logic
+        $per_page = 4; // Menampilkan 4 Alumni per halaman (2 baris x 2 kolom)
+        
+        $data['current_page'] = $page;
+        $data['total_pages'] = ceil(count($semua_alumni) / $per_page);
+        
+        if ($data['total_pages'] > 0 && $page > $data['total_pages']) {
+            $page = $data['total_pages']; 
+        }
+        $offset = ($page - 1) * $per_page;
+        if ($offset < 0) $offset = 0;
+
+        $data['data_alumni'] = array_slice($semua_alumni, $offset, $per_page);
+
+        // 3. Load View
+        $this->load->view('layout/header', $data);
+        $this->load->view('alumni_view', $data); // View baru
+        $this->load->view('layout/footer');
+    }
 }
