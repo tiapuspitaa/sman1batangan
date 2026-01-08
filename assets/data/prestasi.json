@@ -1,0 +1,52 @@
+[
+    {
+        "judul": "Juara 1 Lomba Pencak Silat Nasional",
+        "tanggal": "21 Desember 2025",
+        "kategori": "Non-Akademik",
+        "juara": "Juara 1",
+        "tingkat": "Nasional",
+        "nama_siswa": "Ananda Rizky",
+        "deskripsi": "Meraih medali emas pada kejuaraan pencak silat antar pelajar tingkat nasional di Jakarta.",
+        "gambar": "prestasi1.jpg"
+    },
+    {
+        "judul": "Medali Perak Olimpiade Matematika (OSN)",
+        "tanggal": "10 November 2025",
+        "kategori": "Akademik",
+        "juara": "Juara 2",
+        "tingkat": "Provinsi",
+        "nama_siswa": "Siti Aisyah",
+        "deskripsi": "Berhasil menyelesaikan soal-soal tingkat tinggi dan meraih posisi kedua se-Jawa Tengah.",
+        "gambar": "prestasi2.jpg"
+    },
+    {
+        "judul": "Juara 1 Lomba Pidato Bahasa Inggris",
+        "tanggal": "15 Oktober 2025",
+        "kategori": "Akademik",
+        "juara": "Juara 1",
+        "tingkat": "Kabupaten",
+        "nama_siswa": "Budi Santoso",
+        "deskripsi": "Menampilkan pidato bertema lingkungan hidup dengan fasih dan penuh percaya diri.",
+        "gambar": "prestasi3.jpg"
+    },
+    {
+        "judul": "Juara 3 Futsal Pelajar Cup",
+        "tanggal": "05 September 2025",
+        "kategori": "Non-Akademik",
+        "juara": "Juara 3",
+        "tingkat": "Karesidenan",
+        "nama_siswa": "Tim Futsal SMABA",
+        "deskripsi": "Tim futsal sekolah berhasil menembus semifinal dan mengamankan posisi ketiga.",
+        "gambar": "prestasi4.jpg"
+    },
+    {
+        "judul": "Juara Harapan 1 Lomba Karya Tulis Ilmiah",
+        "tanggal": "20 Agustus 2025",
+        "kategori": "Akademik",
+        "juara": "Harapan 1",
+        "tingkat": "Nasional",
+        "nama_siswa": "Dewi Lestari",
+        "deskripsi": "Inovasi pemanfaatan limbah kulit singkong sebagai bahan bakar alternatif ramah lingkungan.",
+        "gambar": "prestasi5.jpg"
+    }
+]

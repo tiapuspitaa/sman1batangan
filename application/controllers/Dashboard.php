@@ -313,4 +313,78 @@ class Dashboard extends CI_Controller {
         $this->load->view('karya_murid_view', $data); // Kita buat view ini sekarang
         $this->load->view('layout/footer');
     }
+    public function prestasi($page = 1, $kategori = 'semua')
+    {
+        $data['is_home'] = false;
+        $data['kategori_selected'] = $kategori;
+
+        // 1. LOAD DATA DARI JSON
+        $json_path = FCPATH . 'assets/data/prestasi.json';
+        $dummy_prestasi = [];
+        
+        if (file_exists($json_path)) {
+            $json_data = file_get_contents($json_path);
+            $dummy_prestasi = json_decode($json_data, true);
+        }
+
+        // 2. LOGIKA FILTER (Akademik / Non-Akademik)
+        $filtered_data = [];
+        if($kategori == 'semua') {
+            $filtered_data = $dummy_prestasi;
+        } else {
+            foreach($dummy_prestasi as $p) {
+                // Gunakan strtolower agar tidak sensitif huruf besar/kecil
+                if(strtolower($p['kategori']) == strtolower($kategori)) {
+                    $filtered_data[] = $p;
+                }
+            }
+        }
+
+        // 3. PAGINATION LOGIC
+        $per_page = 6; // Jumlah item per halaman
+        $data['current_page'] = $page;
+        $data['total_pages'] = ceil(count($filtered_data) / $per_page);
+
+        // Validasi jika page melebihi total
+        if ($data['total_pages'] > 0 && $page > $data['total_pages']) {
+            $page = $data['total_pages'];
+        }
+        
+        $offset = ($page - 1) * $per_page;
+        if ($offset < 0) $offset = 0;
+
+        $data['data_prestasi'] = array_slice($filtered_data, $offset, $per_page);
+
+        // 4. LOAD VIEW
+        $this->load->view('layout/header', $data);
+        $this->load->view('prestasi_view', $data); // Pastikan nama file view sesuai
+        $this->load->view('layout/footer');
+    }
+    public function detail_prestasi($id = null)
+    {
+        $data['is_home'] = false;
+        
+        // 1. Load Data JSON
+        $json_path = FCPATH . 'assets/data/prestasi.json';
+        $semua_prestasi = [];
+        
+        if (file_exists($json_path)) {
+            $json_data = file_get_contents($json_path);
+            $semua_prestasi = json_decode($json_data, true);
+        }
+
+        // 2. Ambil Data Berdasarkan Index ($id)
+        // Karena di JSON tidak ada field 'id' unik, kita pakai index array.
+        // Pastikan $id adalah angka dan ada di dalam array
+        if ($id !== null && isset($semua_prestasi[$id])) {
+            $data['prestasi'] = $semua_prestasi[$id];
+        } else {
+            $data['prestasi'] = []; // Kosong jika tidak ketemu
+        }
+
+        // 3. Load View Detail
+        $this->load->view('layout/header', $data);
+        $this->load->view('detail_prestasi_view', $data);
+        $this->load->view('layout/footer');
+    }
 }
