@@ -294,8 +294,8 @@ class Dashboard extends CI_Controller {
         }
 
         // 2. Pagination Logic
-        // UBAH DISINI: Menjadi 9 agar tampil 3x3
-        $per_page = 9; 
+        // REVISI: Ubah menjadi 12 agar tampil 4 kolom x 3 baris
+        $per_page = 12; 
         
         $data['current_page'] = $page;
         $data['total_pages'] = ceil(count($semua_karya) / $per_page);

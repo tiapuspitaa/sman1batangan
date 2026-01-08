@@ -33,7 +33,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100 border-0 shadow-sm">
                 <div class="card-header text-white fw-bold py-3" style="background-color: #102a43;">
-                    AGENDA SEKOLAH
+                    PENGUMUMAN
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
@@ -193,7 +193,8 @@
         </div>
 
         <div class="text-center mt-5">
-            <a href="#" class="btn btn-light px-4 py-2 fw-bold shadow-sm" style="color: #102a43;">Tampilkan Semua Berita</a>
+            <a href="<?= base_url('dashboard/berita') ?>"
+             class="btn btn-light px-4 py-2 fw-bold shadow-sm" style="color: #102a43;">Tampilkan Semua Berita</a>
         </div>
 
     </div>
@@ -277,7 +278,8 @@
         </div>
 
         <div class="text-center mt-5">
-            <a href="#" class="btn btn-outline-dark rounded-pill px-5 py-2 fw-bold shadow-sm" style="border-width: 2px;">
+            <a href="<?= base_url('dashboard/prestasi') ?>"
+             class="btn btn-outline-dark rounded-pill px-5 py-2 fw-bold shadow-sm" style="border-width: 2px;">
                 Lihat Semua Prestasi
             </a>
         </div>
@@ -290,117 +292,99 @@
     <div class="container">
         
         <div class="text-center mb-5">
-            <h3 class="fw-bold text-white">KARYA MURID</h3>
+            <h3 class="fw-bold text-white">KARYA MURID TERBARU</h3>
+            <div style="width: 60px; height: 3px; background-color: #ffc107; margin: 10px auto;"></div>
         </div>
 
-        <div class="row">
+        <div class="row g-4">
             
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card h-100 border-0 shadow-sm rounded-1" style="background-color: #e3e6e8;"> <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi1.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Puisi">
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100 shadow-sm rounded-0">
+                    <div style="height: 250px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/publikasi1.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Puisi">
                     </div>
-                    
-                    <div class="card-body p-3 text-start">
-                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; line-height: 1.4;">
+                    <div class="card-body p-3" style="background-color: #e9ecef;">
+                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Benang Merah Sepanggal Detik
                         </h6>
-                        
-                        <hr class="my-3" style="border-top: 1px solid #888; opacity: 1;">
-
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-person-fill me-2 fs-5"></i> <span class="fw-bold">Tia Puspita Sari/ XII IPA</span>
+                        <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Tia Puspita Sari/ XII IPA</span>
                         </div>
-
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-collection-fill me-2 fs-5"></i> <span>Puisi</span>
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Puisi</span>
                         </div>
-
-                        <div class="d-flex align-items-center" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-calendar3 me-2 fs-5"></i> <span>13 November 2025</span>
+                        <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
+                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>13 November 2025</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card h-100 border-0 shadow-sm rounded-1" style="background-color: #e3e6e8;">
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100 shadow-sm rounded-0">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi2.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Lukisan">
+                        <img src="<?= base_url('assets/img/publikasi2.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Lukisan">
                     </div>
-                    <div class="card-body p-3 text-start">
-                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; line-height: 1.4;">
+                    <div class="card-body p-3" style="background-color: #e9ecef;">
+                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Pemandangan Gunung Malam Hari
                         </h6>
-                        
-                        <hr class="my-3" style="border-top: 1px solid #888; opacity: 1;">
-                        
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-person-fill me-2 fs-5"></i>
-                            <span class="fw-bold">Luvina Agita Rani/ XI IPS</span>
+                        <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Luvina Agita Rani/ XI IPS</span>
                         </div>
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-collection-fill me-2 fs-5"></i>
-                            <span>Lukisan</span>
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Lukisan</span>
                         </div>
-                        <div class="d-flex align-items-center" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-calendar3 me-2 fs-5"></i>
-                            <span>4 Desember 2025</span>
+                        <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
+                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>4 Desember 2025</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card h-100 border-0 shadow-sm rounded-1" style="background-color: #e3e6e8;">
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100 shadow-sm rounded-0">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi3.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Maket">
+                        <img src="<?= base_url('assets/img/publikasi3.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Maket">
                     </div>
-                    <div class="card-body p-3 text-start">
-                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; line-height: 1.4;">
+                    <div class="card-body p-3" style="background-color: #e9ecef;">
+                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Maket Rumah Kayu Minimalis
                         </h6>
-                        
-                        <hr class="my-3" style="border-top: 1px solid #888; opacity: 1;">
-                        
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-person-fill me-2 fs-5"></i>
-                            <span class="fw-bold">Axel Candra Adi/ X</span>
+                        <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Axel Candra Adi/ X</span>
                         </div>
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-collection-fill me-2 fs-5"></i>
-                            <span>Kerajinan Tangan</span>
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Kerajinan</span>
                         </div>
-                        <div class="d-flex align-items-center" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-calendar3 me-2 fs-5"></i>
-                            <span>25 Desember 2025</span>
+                        <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
+                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>25 Desember 2025</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card h-100 border-0 shadow-sm rounded-1" style="background-color: #e3e6e8;">
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100 shadow-sm rounded-0">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi4.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Poster">
+                        <img src="<?= base_url('assets/img/publikasi4.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Poster">
                     </div>
-                    <div class="card-body p-3 text-start">
-                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; line-height: 1.4;">
-                            Hari Guru Nasional
+                    <div class="card-body p-3" style="background-color: #e9ecef;">
+                        <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
+                            Poster Hari Guru Nasional
                         </h6>
-                        
-                        <hr class="my-3" style="border-top: 1px solid #888; opacity: 1;">
-                        
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-person-fill me-2 fs-5"></i>
-                            <span class="fw-bold">Akbar Ibrahim/ XII IPA</span>
+                        <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Akbar Ibrahim/ XII IPA</span>
                         </div>
-                        <div class="d-flex align-items-center mb-2" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-collection-fill me-2 fs-5"></i>
-                            <span>Poster</span>
+                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Poster</span>
                         </div>
-                        <div class="d-flex align-items-center" style="font-size: 13px; color: #222;">
-                            <i class="bi bi-calendar3 me-2 fs-5"></i>
-                            <span>25 November 2025</span>
+                        <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
+                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>25 November 2025</span>
                         </div>
                     </div>
                 </div>
@@ -409,7 +393,11 @@
         </div>
 
         <div class="text-center mt-5">
-            <a href="#" class="btn btn-light px-4 py-2 fw-bold rounded-1 shadow-sm" style="color: #102a43;">Tampilkan Semua Publikasi</a>
+            <a href="<?= base_url('dashboard/karya_murid') ?>" 
+               class="btn btn-light px-4 py-2 fw-bold rounded-1 shadow-sm" 
+               style="color: #102a43;">
+               Tampilkan Semua Karya
+            </a>
         </div>
 
     </div>
@@ -424,11 +412,13 @@
             <div style="width: 60px; height: 3px; background-color: #ffc107; margin: 10px auto;"></div>
         </div>
 
-        <div class="row">
+        <div class="row g-4">
             
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 border-0 shadow">
-                    <img src="<?= base_url('assets/img/ekskul1.jpg') ?>" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Pramuka">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow card-hover">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/ekskul1.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Pramuka">
+                    </div>
                     <div class="card-body text-white" style="background-color: #102a43;">
                         <h5 class="card-title fw-bold text-uppercase">PRAMUKA</h5>
                         <p class="card-text small" style="opacity: 0.8;">Kegiatan kepramukaan untuk membentuk karakter dan kemandirian siswa.</p>
@@ -436,9 +426,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 border-0 shadow">
-                    <img src="<?= base_url('assets/img/ekskul2.jpg') ?>" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Basket">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow card-hover">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/ekskul2.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Basket">
+                    </div>
                     <div class="card-body text-white" style="background-color: #102a43;">
                         <h5 class="card-title fw-bold text-uppercase">BASKET</h5>
                         <p class="card-text small" style="opacity: 0.8;">Mengembangkan bakat olahraga bola basket dan kerjasama tim.</p>
@@ -446,9 +438,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 border-0 shadow">
-                    <img src="<?= base_url('assets/img/ekskul3.jpg') ?>" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Paskibra">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow card-hover">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/ekskul3.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Paskibra">
+                    </div>
                     <div class="card-body text-white" style="background-color: #102a43;">
                         <h5 class="card-title fw-bold text-uppercase">PASKIBRA</h5>
                         <p class="card-text small" style="opacity: 0.8;">Pasukan Pengibar Bendera Pusaka dengan kedisiplinan tinggi.</p>
@@ -456,19 +450,23 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 border-0 shadow">
-                    <img src="<?= base_url('assets/img/ekskul4.jpg') ?>" class="card-img-top" style="height: 200px; object-fit: cover;" alt="PMR">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow card-hover">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/ekskul4.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="PMR">
+                    </div>
                     <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">PALANG MERAH REMAJA</h5>
+                        <h5 class="card-title fw-bold text-uppercase">PMR</h5>
                         <p class="card-text small" style="opacity: 0.8;">Melatih keterampilan pertolongan pertama dan kepedulian sosial.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 border-0 shadow">
-                    <img src="<?= base_url('assets/img/ekskul5.jpg') ?>" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Rohis">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow card-hover">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/ekskul5.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Musik">
+                    </div>
                     <div class="card-body text-white" style="background-color: #102a43;">
                         <h5 class="card-title fw-bold text-uppercase">MUSIK</h5>
                         <p class="card-text small" style="opacity: 0.8;">Melatih agar keterampilan musik semakin meningkat.</p>
@@ -476,9 +474,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 border-0 shadow">
-                    <img src="<?= base_url('assets/img/ekskul6.jpg') ?>" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Seni Tari">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow card-hover">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/ekskul6.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Seni Tari">
+                    </div>
                     <div class="card-body text-white" style="background-color: #102a43;">
                         <h5 class="card-title fw-bold text-uppercase">SENI TARI</h5>
                         <p class="card-text small" style="opacity: 0.8;">Melestarikan budaya tradisional melalui seni tari daerah.</p>
@@ -489,6 +489,28 @@
         </div>
     </div>
 </div>
+
+<style>
+    /* Transisi Halus */
+    .hover-zoom { 
+        transition: transform 0.4s ease; 
+    }
+    
+    /* Efek Zoom saat card di-hover */
+    .card:hover .hover-zoom { 
+        transform: scale(1.1); 
+    }
+    
+    /* Agar Sudut Card Runcing (Karya Murid) */
+    .rounded-0 { 
+        border-radius: 0 !important; 
+    }
+    
+    /* Agar Gambar Ekskul pas */
+    .object-fit-cover {
+        object-fit: cover;
+    }
+</style>
 
 
 <div class="py-5" style="background-color: #102a43;">
