@@ -31,55 +31,74 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-header text-white fw-bold py-3" style="background-color: #102a43;">
-                    PENGUMUMAN
+    <div class="card h-100 border-0 shadow-sm">
+        <div class="card-header text-white fw-bold py-3" style="background-color: #102a43;">
+            PENGUMUMAN
+        </div>
+        <div class="card-body">
+            
+            <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
+                    <span class="fw-bold fs-5">12</span>
+                    <span style="font-size: 10px;">JAN</span>
                 </div>
-                <div class="card-body">
-                    <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
-                        <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
-                            <span class="fw-bold fs-5">12</span>
-                            <span style="font-size: 10px;">JAN</span>
-                        </div>
-                        <div class="ms-3">
-                            <h6 class="mb-0 fw-bold text-dark">Rapat Koordinasi Guru</h6>
-                            <small class="text-muted">Aula Utama</small>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
-                        <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
-                            <span class="fw-bold fs-5">24</span>
-                            <span style="font-size: 10px;">JAN</span>
-                        </div>
-                        <div class="ms-3">
-                            <h6 class="mb-0 fw-bold text-dark">Ujian Praktik Seni</h6>
-                            <small class="text-muted">Ruang Kesenian</small>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                         <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
-                            <span class="fw-bold fs-5">05</span>
-                            <span style="font-size: 10px;">FEB</span>
-                        </div>
-                        <div class="ms-3">
-                            <h6 class="mb-0 fw-bold text-dark">Peringatan Israk Mikraj</h6>
-                            <small class="text-muted">Masjid Sekolah</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer bg-white border-0 pb-3">
-                    <a href="#" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-bold text-dark">Rapat Koordinasi Guru</h6>
+                    <small class="text-muted">Aula Utama</small>
                 </div>
             </div>
-        </div>
 
-        <div class="col-lg-5 col-md-12 mb-4">
-            <h5 class="fw-bold mb-3 border-start border-4 border-warning ps-2" style="color: #102a43;">SAMBUTAN KEPALA SEKOLAH</h5>
+            <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
+                    <span class="fw-bold fs-5">24</span>
+                    <span style="font-size: 10px;">JAN</span>
+                </div>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-bold text-dark">Ujian Praktik Seni</h6>
+                    <small class="text-muted">Ruang Kesenian</small>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
+                    <span class="fw-bold fs-5">05</span>
+                    <span style="font-size: 10px;">FEB</span>
+                </div>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-bold text-dark">Peringatan Israk Mikraj</h6>
+                    <small class="text-muted">Masjid Sekolah</small>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center">
+                <div class="flex-shrink-0 bg-light text-dark border text-center rounded d-flex flex-column justify-content-center" style="width: 60px; height: 60px;">
+                    <span class="fw-bold fs-5">10</span>
+                    <span style="font-size: 10px;">MAR</span>
+                </div>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-bold text-dark">Libur Awal Puasa</h6>
+                    <small class="text-muted">Kalender Akademik</small>
+                </div>
+            </div>
             
+<<<<<<< HEAD
             <div class="card border-0 bg-light p-3 shadow-sm h-80">
                 <div class="mb-3 rounded overflow-hidden" style="height: 200px; width: 100%; background-color: #ccc;">
                      <?php if(file_exists('assets/img/kepsek smaba.png')): ?>
                         <img src="<?= base_url('assets/img/kepsek smaba.png') ?>" class="w-100 h-150" style="object-fit: cover;" alt="Kepala Sekolah">
+=======
+        </div>
+    </div>
+</div>
+
+        <div class="col-lg-5 col-md-12 mb-5">
+            <h5 class="fw-bold mb-2 border-start border-4 border-warning ps-2" style="color: #102a43;">SAMBUTAN KEPALA SEKOLAH</h5>
+            
+            <div class="card border-0  p-3 shadow-sm ">
+                <div class="mb-5 rounded overflow-hidden" style="height: 200px; width: 100%;">
+                     <?php if(file_exists('assets/img/kepsek1.png')): ?>
+                        <img src="<?= base_url('assets/img/kepsek1.png') ?>" class="w-100 h-100" style="object-fit: contain;" alt="Kepala Sekolah">
+>>>>>>> b19589de02191358c1114094bcd18973400ecdc9
                      <?php else: ?>
                         <div class="d-flex align-items-center justify-content-center h-100 text-muted">FOTO KEPALA SEKOLAH</div>
                      <?php endif; ?>
@@ -88,9 +107,9 @@
                 <div class="card-body p-0">
                     <h6 class="fw-bold">Lasmin, S.Pd, M.Pd</h6>
                     <p class="text-muted small mb-2">Kepala Sekolah SMA Negeri 1 Batangan</p>
-                    <p class="card-text text-secondary" style="text-align: justify; font-size: 14px;">
+                    <p class="card-text text-dark" style="text-align: justify; font-size: 14px;">
                         Assalamualaikum Warahmatullahi Wabarakatuh. Selamat datang di website resmi SMA Negeri 1 Batangan. Kami berkomitmen untuk memberikan layanan pendidikan terbaik...
-                     <a href="#" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
+                     <a href="<?= base_url('dashboard/sambutan') ?>" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
                     </p>
                 </div>
             </div>
@@ -227,7 +246,7 @@
                                 
                                 <p class="card-text text-secondary mb-4" style="font-size: 0.9rem; line-height: 1.6;">
                                     Ananda Rizky berhasil mengharumkan nama sekolah dengan meraih medali emas pada kejuaraan...
-                                    <a href="#" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
+                                    <a href="<?= base_url('dashboard/detail_prestasi/0') ?>" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
                                 </p>
                                 
                                 <p class="card-text mt-auto text-muted small border-top pt-3 d-flex align-items-center">
@@ -254,12 +273,12 @@
                                 <span class="badge bg-primary mb-3 px-3 py-2 w-auto align-self-start rounded-pill">Tingkat Provinsi</span>
                                 
                                 <h5 class="card-title fw-bold mb-3" style="color: #102a43; font-size: 1.25rem;">
-                                    Juara 1 Lomba Dayung Provinsi
+                                    Medali Perak Olimpiade Matematika (OSN)
                                 </h5>
                                 
                                 <p class="card-text text-secondary mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                    Tim Dayung SMABA sukses menyabet juara pertama dalam ajang Pekan Olahraga Pelajar...
-                                    <a href="#" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
+                                    Berhasil menyelesaikan soal-soal tingkat tinggi dan meraih posisi kedua se-Jawa Tengah....
+                                    <a href="<?= base_url('dashboard/detail_prestasi/1') ?>" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
                                 </p>
                                 
                                 <p class="card-text mt-auto text-muted small border-top pt-3 d-flex align-items-center">
