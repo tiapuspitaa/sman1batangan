@@ -81,12 +81,6 @@
                 </div>
             </div>
             
-<<<<<<< HEAD
-            <div class="card border-0 bg-light p-3 shadow-sm h-80">
-                <div class="mb-3 rounded overflow-hidden" style="height: 200px; width: 100%; background-color: #ccc;">
-                     <?php if(file_exists('assets/img/kepsek smaba.png')): ?>
-                        <img src="<?= base_url('assets/img/kepsek smaba.png') ?>" class="w-100 h-150" style="object-fit: cover;" alt="Kepala Sekolah">
-=======
         </div>
     </div>
 </div>
@@ -96,9 +90,8 @@
             
             <div class="card border-0  p-3 shadow-sm ">
                 <div class="mb-5 rounded overflow-hidden" style="height: 200px; width: 100%;">
-                     <?php if(file_exists('assets/img/kepsek1.png')): ?>
-                        <img src="<?= base_url('assets/img/kepsek1.png') ?>" class="w-100 h-100" style="object-fit: contain;" alt="Kepala Sekolah">
->>>>>>> b19589de02191358c1114094bcd18973400ecdc9
+                     <?php if(file_exists('assets/img/kepsek smaba.png')): ?>
+                        <img src="<?= base_url('assets/img/kepsek smaba.png') ?>" class="w-100 h-150" style="object-fit: contain;" alt="Kepala Sekolah">
                      <?php else: ?>
                         <div class="d-flex align-items-center justify-content-center h-100 text-muted">FOTO KEPALA SEKOLAH</div>
                      <?php endif; ?>
