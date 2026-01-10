@@ -76,10 +76,10 @@
         <div class="col-lg-5 col-md-12 mb-4">
             <h5 class="fw-bold mb-3 border-start border-4 border-warning ps-2" style="color: #102a43;">SAMBUTAN KEPALA SEKOLAH</h5>
             
-            <div class="card border-0 bg-light p-3 shadow-sm h-100">
+            <div class="card border-0 bg-light p-3 shadow-sm h-80">
                 <div class="mb-3 rounded overflow-hidden" style="height: 200px; width: 100%; background-color: #ccc;">
-                     <?php if(file_exists('assets/img/kepsek.jpg')): ?>
-                        <img src="<?= base_url('assets/img/kepsek.jpg') ?>" class="w-100 h-100" style="object-fit: cover;" alt="Kepala Sekolah">
+                     <?php if(file_exists('assets/img/kepsek smaba.png')): ?>
+                        <img src="<?= base_url('assets/img/kepsek smaba.png') ?>" class="w-100 h-150" style="object-fit: cover;" alt="Kepala Sekolah">
                      <?php else: ?>
                         <div class="d-flex align-items-center justify-content-center h-100 text-muted">FOTO KEPALA SEKOLAH</div>
                      <?php endif; ?>

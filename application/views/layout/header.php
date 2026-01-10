@@ -162,25 +162,25 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-display="static">Informasi Sekolah</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="<?= base_url('dashboard/berita') ?>">Berita Sekolah</a></li>
-            <li><a class="dropdown-item" href="<?= base_url('dashboard/ppdb') ?>">PPDB</a></li>
-            <li><a class="dropdown-item" href="<?= base_url('dashboard/pengumuman') ?>">Pengumuman Kelulusan</a></li>
-            <li><a class="dropdown-item" href="<?= base_url('dashboard/agenda') ?>">Agenda Akademik</a></li>
-          </ul>
+              <li><a class="dropdown-item" href="<?= base_url('dashboard/berita') ?>">Berita Sekolah</a></li>
+              <li><a class="dropdown-item" href="<?= base_url('dashboard/pengumuman') ?>">Pengumuman Kelulusan</a></li>
+              <li><a class="dropdown-item" href="<?= base_url('dashboard/agenda') ?>">Agenda Akademik</a></li>
+              <li><a class="dropdown-item" href="<?= base_url('#kontak') ?>">Kontak</a></li>
+            </ul>
         </li>
-
+        
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-display="static">Layanan</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="<?= base_url('dashboard/ekskul') ?>">Ekstrakurikuler</a></li>
-              <li><a class="dropdown-item" href="<?= base_url('dashboard/fasilitas') ?>">Fasilitas Sekolah</a></li>
+                <li><a class="dropdown-item" href="<?= base_url('dashboard/ekskul') ?>">Ekstrakurikuler</a></li>
+                <li><a class="dropdown-item" href="<?= base_url('dashboard/fasilitas') ?>">Fasilitas Sekolah</a></li>
             </ul>
         </li>
-
+        
         <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/karya_murid') ?>">Karya Murid</a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/prestasi') ?>">Prestasi</a></li>
         <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/alumni') ?>">Alumni</a></li>
-        <li class="nav-item"><a class="nav-link" href="<?= base_url('#kontak') ?>">Kontak</a></li>
+        <li class="nav-item"><a class="nav-link" href="<?= base_url('dashboard/ppdb') ?>">PPDB</a></li>
 
       </ul>
     </div>

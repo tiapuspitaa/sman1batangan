@@ -24,7 +24,7 @@
             
             <div class="col-md-4 mb-4 mb-md-0">
                 <div class="rounded shadow-sm overflow-hidden border">
-                    <img src="<?= base_url('assets/img/kepsek1.png') ?>" class="w-100" style="object-fit: cover;" alt="Kepala Sekolah">
+                    <img src="<?= base_url('assets/img/kepsek1.jpg') ?>" class="w-100" style="object-fit: cover;" alt="Kepala Sekolah">
                 </div>
             </div>
 
