@@ -291,8 +291,9 @@
 
         <div class="text-center mt-5">
             <a href="<?= base_url('dashboard/prestasi') ?>"
-             class="btn btn-outline-dark rounded-pill px-5 py-2 fw-bold shadow-sm" style="border-width: 2px;">
-                Lihat Semua Prestasi
+               class="btn btn-light px-4 py-2 fw-bold rounded-1 shadow-sm" 
+               style="color: #fff; background-color: #102a43;">
+               Tampilkan Semua Karya
             </a>
         </div>
 
