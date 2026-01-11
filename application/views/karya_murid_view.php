@@ -22,7 +22,7 @@
             
             <div class="col-md-6 col-lg-3">
                 
-                <div class="card border-0 h-100 shadow-sm rounded-0">
+                <div class="card border-0 h-100 shadow-sm rounded-4 overflow-hidden">
                     
                     <div style="height: 250px; overflow: hidden;">
                         <img src="<?= base_url('assets/img/' . $item['gambar']) ?>" 
@@ -65,19 +65,11 @@
             <nav aria-label="Page navigation">
                 <ul class="pagination">
                     
-                    <?php for($i = 1; $i <= 4; $i++): ?>
-                        <?php 
-                            $is_disabled = ($i > $total_pages);
-                            $link = $is_disabled ? 'javascript:void(0);' : base_url('dashboard/karya_murid/'.$i);
-                            $text_color = $is_disabled ? 'color: #ccc;' : 'color: #333;';
-                            $bg_color = ($i == $current_page) ? 'background-color: #e9ecef; color: black;' : 'background-color: transparent;';
-                            $cursor = $is_disabled ? 'cursor: default;' : '';
-                        ?>
-
+                    <?php for($i = 1; $i <= $total_pages; $i++): ?>
                         <li class="page-item <?= ($i == $current_page) ? 'active' : '' ?> mx-1">
                             <a class="page-link border-0 rounded-0 px-3 py-2 fw-bold" 
-                               href="<?= $link ?>"
-                               style="<?= $bg_color ?> <?= $text_color ?> <?= $cursor ?> border: 1px solid #dee2e6 !important;">
+                               href="<?= base_url('dashboard/karya_murid/'.$i) ?>"
+                               style="<?= ($i == $current_page) ? 'background-color: #e9ecef; color: black;' : 'background-color: transparent; color: #333;' ?> border: 1px solid #dee2e6 !important;">
                                <?= $i ?>
                             </a>
                         </li>
@@ -99,7 +91,9 @@
 <style>
     .hover-zoom { transition: transform 0.3s ease; }
     .card:hover .hover-zoom { transform: scale(1.05); }
-    .rounded-0 { border-radius: 0 !important; }
+    /* Menambahkan sedikit efek angkat pada card saat di hover agar serupa dengan card guru */
+    .card { transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-5px); }
 </style>
 
 <div class="text-white py-4 text-center" style="background-color: #102a43;">
