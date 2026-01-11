@@ -43,7 +43,7 @@
                                 <hr class="my-2" style="border-top: 1px solid #fff; opacity: 0.5;">
                                 
                                 <p class="card-text small mb-0" style="font-size: 13px; line-height: 1.6; opacity: 0.9; text-align: justify;">
-                                    <?= substr($item['deskripsi'], 0, 200) ?>...
+                                    <?= substr($item['deskripsi'], 0, 200) ?>
                                 </p>
                                 
                             </div>
