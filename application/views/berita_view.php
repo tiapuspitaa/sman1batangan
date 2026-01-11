@@ -80,7 +80,7 @@
                             <i class="bi bi-calendar3 me-2"></i> <?= $berita['tanggal'] ?>
                         </small>
 
-                        <p class="text-secondary" style="font-size: 14px; line-height: 1.6; text-align: justify;">
+                        <p class="text-dark" style="font-size: 14px; line-height: 1.6; text-align: justify;">
                             <?= $berita['isi'] ?>
                         </p>
 

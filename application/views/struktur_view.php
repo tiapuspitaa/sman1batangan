@@ -21,7 +21,7 @@
         
         <h3 class="fw-bold mb-5" style="color: #102a43;">Struktur Organisasi Sekolah</h3>
             
-            <img src="<?= base_url('assets/img/sejarah.jpg') ?>" 
+            <img src="<?= base_url('assets/img/strukturoranisasi.jpg') ?>" 
                  alt="Bagan Struktur Organisasi" 
                  class="img-fluid rounded-2" 
                  style="max-width: 100%; height: auto;">

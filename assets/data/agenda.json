@@ -1,26 +1,65 @@
 [
     {
-        "judul": "PEMBAGIAN RAPOR SEMESTER GANJIL 2025 SMA NEGERI 1 BATANGAN",
-        "tanggal": "18 Desember 2025",
-        "isi": "Pembagian rapor Semester Ganjil Tahun Ajaran 2025/2026 dilaksanakan sebagai bentuk penyampaian hasil belajar peserta didik kepada orang tua/wali siswa. Kegiatan ini bertujuan untuk memberikan informasi mengenai perkembangan akademik, sikap, dan keterampilan siswa selama satu semester, sekaligus menjadi bahan evaluasi bersama antara sekolah dan orang tua.",
+        "id": 1,
+        "judul": "PELUNCURAN PROGRAM KELAS BILINGUAL",
+        "tanggal": "10 Januari 2025",
+        "isi": "Peresmian program pembelajaran dua bahasa (Indonesia-Inggris) pada mata pelajaran sains untuk mempersiapkan siswa di level global dalam menghadapi tantangan akademik internasional.",
         "gambar": "agenda1.jpg"
     },
     {
-        "judul": "SERAH TERIMA JABATAN KEPALA SMA NEGERI 1 BATANGAN",
-        "tanggal": "13 November 2025",
-        "isi": "SMA Negeri 1 Batangan mengadakan acara Serah Terima Jabatan Kepala Sekolah pada Kamis, 13 November 2025, bertempat di aula sekolah. Kegiatan berlangsung khidmat sekaligus hangat, menjadi momentum penting dalam perjalanan kepemimpinan sekolah. Serah terima jabatan dilakukan dari Plt. Kepala SMA N 1 Batangan kepada Kepala Sekolah baru.",
-        "gambar": "berita1.jpg"
+        "id": 2,
+        "judul": "SMABA SCIENCE OLYMPIAD",
+        "tanggal": "15 April 2025",
+        "isi": "Kompetisi internal bidang sains dan ekonomi untuk menyeleksi perwakilan siswa terbaik yang akan mewakili sekolah menuju tingkat kabupaten dan provinsi.",
+        "gambar": "agenda2.jpg"
     },
     {
-        "judul": "RAPAT PLENO KOMITE SEKOLAH TAHUN AJARAN BARU",
-        "tanggal": "15 Juli 2025",
-        "isi": "Mengundang seluruh wali murid kelas X, XI, dan XII untuk menghadiri Rapat Pleno Komite Sekolah guna membahas program kerja sekolah satu tahun ke depan serta sosialisasi tata tertib sekolah yang baru.",
-        "gambar": "berita2.jpg"
+        "id": 3,
+        "judul": "SEMINAR MOTIVASI & KARIR MASA DEPAN",
+        "tanggal": "20 Mei 2025",
+        "isi": "Seminar bersama pakar pendidikan mengenai pemilihan program studi di perguruan tinggi yang relevan dengan tren dunia kerja masa depan bagi siswa kelas XII.",
+        "gambar": "agenda3.jpg"
     },
     {
-        "judul": "PERKEMAHAHAN BLOK PRAMUKA WAJIB KELAS X",
-        "tanggal": "20 Agustus 2024",
-        "isi": "Agenda tahunan Perkemahan Blok (Perjusa) bagi seluruh siswa kelas X akan dilaksanakan di Bumi Perkemahan Regaloh. Siswa diharapkan mempersiapkan perlengkapan pribadi dan kelompok sesuai ketentuan.",
-        "gambar": "berita3.jpg"
+        "id": 4,
+        "judul": "INTENSIVE COURSE PERSIAPAN SNBP & SNBT",
+        "tanggal": "05 Januari 2024",
+        "isi": "Program pendampingan akademik khusus bagi siswa kelas XII untuk mematangkan persiapan menghadapi seleksi masuk Perguruan Tinggi Negeri tahun 2024.",
+        "gambar": "agenda4.jpg"
+    },
+    {
+        "id": 5,
+        "judul": "BULAN BAHASA DAN LITERASI",
+        "tanggal": "28 Oktober 2024",
+        "isi": "Serangkaian lomba akademik seperti debat bahasa, pidato, dan penulisan karya ilmiah remaja untuk memperingati bulan bahasa sekaligus mengasah literasi siswa.",
+        "gambar": "agenda5.jpg"
+    },
+    {
+        "id": 6,
+        "judul": "SIMULASI UJIAN SATUAN PENDIDIKAN BERBASIS IT",
+        "tanggal": "12 Desember 2024",
+        "isi": "Uji coba teknis pelaksanaan ujian menggunakan perangkat digital dan jaringan lokal sekolah untuk memastikan kesiapan infrastruktur IT sebelum ujian utama.",
+        "gambar": "agenda6.jpg"
+    },
+    {
+        "id": 7,
+        "judul": "WORKSHOP DIGITALISASI PEMBELAJARAN",
+        "tanggal": "15 Maret 2023",
+        "isi": "Pelatihan intensif bagi tenaga pendidik mengenai pemanfaatan platform Learning Management System (LMS) dan pembuatan konten video edukasi kreatif.",
+        "gambar": "agenda7.jpg"
+    },
+    {
+        "id": 8,
+        "judul": "ASESMEN NASIONAL BERBASIS KOMPUTER (ANBK)",
+        "tanggal": "25 Agustus 2023",
+        "isi": "Pelaksanaan evaluasi mutu pendidikan nasional yang diikuti oleh sampel siswa kelas XI guna memetakan kualitas literasi dan numerasi di lingkungan sekolah.",
+        "gambar": "agenda8.jpg"
+    },
+    {
+        "id": 9,
+        "judul": "GELAR KARYA P5: TEMA KEWIRAUSAHAAN",
+        "tanggal": "10 November 2023",
+        "isi": "Pameran hasil projek Penguatan Profil Pelajar Pancasila (P5) di mana siswa menampilkan produk inovatif buatan sendiri dan mempraktikkan strategi pemasaran langsung.",
+        "gambar": "agenda9.jpg"
     }
 ]

@@ -133,7 +133,7 @@
                             </a>
                         </h5>
                         
-                        <p class="card-text text-secondary small mb-4 flex-grow-1" style="line-height: 1.6;">
+                        <p class="card-text text-dark small mb-4 flex-grow-1" style="line-height: 1.6;">
                             SMA Negeri 1 Batangan mengadakan acara Serah Terima Jabatan Kepala Sekolah pada Kamis, 13 November 2025, bertempat di aula sekolah.
                         </p>
                         
@@ -160,7 +160,7 @@
                             </a>
                         </h5>
                         
-                        <p class="card-text text-secondary small mb-4 flex-grow-1" style="line-height: 1.6;">
+                        <p class="card-text text-dark small mb-4 flex-grow-1" style="line-height: 1.6;">
                             SMABA menerima kunjungan kehormatan dalam rangka berbagi praktik baik implementasi kurikulum merdeka di lingkungan sekolah.
                         </p>
                         
@@ -187,7 +187,7 @@
                             </a>
                         </h5>
                         
-                        <p class="card-text text-secondary small mb-4 flex-grow-1" style="line-height: 1.6;">
+                        <p class="card-text text-dark small mb-4 flex-grow-1" style="line-height: 1.6;">
                             Seluruh warga sekolah mengikuti upacara bendera dengan khidmat untuk mengenang jasa para pahlawan yang telah gugur.
                         </p>
                         
@@ -237,7 +237,7 @@
                                     Juara 1 Lomba Pencak Silat Nasional
                                 </h5>
                                 
-                                <p class="card-text text-secondary mb-4" style="font-size: 0.9rem; line-height: 1.6;">
+                                <p class="card-text text-dark mb-4" style="font-size: 0.9rem; line-height: 1.6;">
                                     Ananda Rizky berhasil mengharumkan nama sekolah dengan meraih medali emas pada kejuaraan...
                                     <a href="<?= base_url('dashboard/detail_prestasi/0') ?>" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
                                 </p>
@@ -269,7 +269,7 @@
                                     Medali Perak Olimpiade Matematika (OSN)
                                 </h5>
                                 
-                                <p class="card-text text-secondary mb-4" style="font-size: 0.9rem; line-height: 1.6;">
+                                <p class="card-text text-dark mb-4" style="font-size: 0.9rem; line-height: 1.6;">
                                     Berhasil menyelesaikan soal-soal tingkat tinggi dan meraih posisi kedua se-Jawa Tengah....
                                     <a href="<?= base_url('dashboard/detail_prestasi/1') ?>" class="text-warning fw-bold text-decoration-none">Lihat Detail >></a>
                                 </p>
@@ -289,11 +289,11 @@
 
         </div>
 
-        <div class="text-center mt-5">
+        <<div class="text-center mt-5">
             <a href="<?= base_url('dashboard/prestasi') ?>"
-               class="btn btn-light px-4 py-2 fw-bold rounded-1 shadow-sm" 
+             class="btn btn-light px-4 py-2 fw-bold shadow-sm" 
                style="color: #fff; background-color: #102a43;">
-               Tampilkan Semua Karya
+               Tampilkan Semua Prestasi
             </a>
         </div>
 
@@ -387,7 +387,7 @@
                     </div>
                     <div class="card-body p-3" style="background-color: #e9ecef;">
                         <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
-                            Poster Hari Guru Nasional
+                            Hari Guru Nasional
                         </h6>
                         <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
                         <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
@@ -406,8 +406,8 @@
         </div>
 
         <div class="text-center mt-5">
-            <a href="<?= base_url('dashboard/karya_murid') ?>" 
-               class="btn btn-light px-4 py-2 fw-bold rounded-1 shadow-sm" 
+            <a href="<?= base_url('dashboard/karya') ?>"
+             class="btn btn-light px-4 py-2 fw-bold shadow-sm"
                style="color: #102a43;">
                Tampilkan Semua Karya
             </a>
@@ -428,101 +428,106 @@
         <div class="row g-4">
             
             <div class="col-md-4">
-                <div class="card h-100 border-0 shadow card-hover">
-                    <div style="height: 200px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/ekskul1.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Pramuka">
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div style="height: 220px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/PBB.jpg') ?>" class="hover-zoom w-100 h-100 object-fit-cover" alt="PBB">
                     </div>
-                    <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">PRAMUKA</h5>
-                        <p class="card-text small" style="opacity: 0.8;">Kegiatan kepramukaan untuk membentuk karakter dan kemandirian siswa.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow card-hover">
-                    <div style="height: 200px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/ekskul2.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Basket">
-                    </div>
-                    <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">BASKET</h5>
-                        <p class="card-text small" style="opacity: 0.8;">Mengembangkan bakat olahraga bola basket dan kerjasama tim.</p>
+                    <div class="card-body p-4 text-white" style="background-color: #102a43;">
+                        <h4 class="fw-bold text-uppercase mb-3">PBB</h4>
+                        <p class="fw-normal mb-0" style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+                            Melatih ketegasan, kekompakan tim, dan tata upacara bendera. Anggota dilatih kep...
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card h-100 border-0 shadow card-hover">
-                    <div style="height: 200px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/ekskul3.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Paskibra">
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div style="height: 220px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/englishclub.jpg') ?>" class="hover-zoom w-100 h-100 object-fit-cover" alt="English Club">
                     </div>
-                    <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">PASKIBRA</h5>
-                        <p class="card-text small" style="opacity: 0.8;">Pasukan Pengibar Bendera Pusaka dengan kedisiplinan tinggi.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow card-hover">
-                    <div style="height: 200px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/ekskul4.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="PMR">
-                    </div>
-                    <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">PMR</h5>
-                        <p class="card-text small" style="opacity: 0.8;">Melatih keterampilan pertolongan pertama dan kepedulian sosial.</p>
+                    <div class="card-body p-4 text-white" style="background-color: #102a43;">
+                        <h4 class="fw-bold text-uppercase mb-3">ENGLISH CLUB</h4>
+                        <p class="fw-normal mb-0" style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+                            Meningkatkan kepercayaan diri berbicara dan keterampilan komunikasi dalam bahasa internasional...
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card h-100 border-0 shadow card-hover">
-                    <div style="height: 200px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/ekskul5.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Musik">
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div style="height: 220px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/futsal.jpg') ?>" class="hover-zoom w-100 h-100 object-fit-cover" alt="Futsal">
                     </div>
-                    <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">MUSIK</h5>
-                        <p class="card-text small" style="opacity: 0.8;">Melatih agar keterampilan musik semakin meningkat.</p>
+                    <div class="card-body p-4 text-white" style="background-color: #102a43;">
+                        <h4 class="fw-bold text-uppercase mb-3">FUTSAL</h4>
+                        <p class="fw-normal mb-0" style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+                            Ekstrakurikuler favorit untuk menyalurkan hobi sepak bola, melatih strategi perm...
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card h-100 border-0 shadow card-hover">
-                    <div style="height: 200px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/ekskul6.jpg') ?>" class="card-img-top hover-zoom w-100 h-100 object-fit-cover" alt="Seni Tari">
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div style="height: 220px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/tari.jpg') ?>" class="hover-zoom w-100 h-100 object-fit-cover" alt="Tari">
                     </div>
-                    <div class="card-body text-white" style="background-color: #102a43;">
-                        <h5 class="card-title fw-bold text-uppercase">SENI TARI</h5>
-                        <p class="card-text small" style="opacity: 0.8;">Melestarikan budaya tradisional melalui seni tari daerah.</p>
+                    <div class="card-body p-4 text-white" style="background-color: #102a43;">
+                        <h4 class="fw-bold text-uppercase mb-3">TARI</h4>
+                        <p class="fw-normal mb-0" style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+                            Mengekspresikan diri melalui keindahan gerak seni tari tradisional dan kreasi modern...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div style="height: 220px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/pmr.jpg') ?>" class="hover-zoom w-100 h-100 object-fit-cover" alt="PMR">
+                    </div>
+                    <div class="card-body p-4 text-white" style="background-color: #102a43;">
+                        <h4 class="fw-bold text-uppercase mb-3">PMR</h4>
+                        <p class="fw-normal mb-0" style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+                            Membangun jiwa kemanusiaan, kepedulian sosial, dan keterampilan pertolongan pertama...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div style="height: 220px; overflow: hidden;">
+                        <img src="<?= base_url('assets/img/pencaksilat.jpg') ?>" class="hover-zoom w-100 h-100 object-fit-cover" alt="Pencak Silat">
+                    </div>
+                    <div class="card-body p-4 text-white" style="background-color: #102a43;">
+                        <h4 class="fw-bold text-uppercase mb-3">PENCAK SILAT</h4>
+                        <p class="fw-normal mb-0" style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.7);">
+                            Melestarikan seni bela diri budaya bangsa sekaligus melatih kekuatan fisik dan mental...
+                        </p>
                     </div>
                 </div>
             </div>
 
         </div>
+
+        <div class="text-center mt-5">
+            <a href="<?= base_url('dashboard/ekskul') ?>"
+               class="btn px-4 py-2 fw-bold shadow-sm"
+               style="color: #fff; background-color: #102a43; border-radius: 6px; font-size: 14px;">
+               Tampilkan Semua Ekstrakurikuler
+            </a>
+        </div>
     </div>
 </div>
 
 <style>
-    /* Transisi Halus */
-    .hover-zoom { 
-        transition: transform 0.4s ease; 
-    }
-    
-    /* Efek Zoom saat card di-hover */
-    .card:hover .hover-zoom { 
-        transform: scale(1.1); 
-    }
-    
-    /* Agar Sudut Card Runcing (Karya Murid) */
-    .rounded-0 { 
-        border-radius: 0 !important; 
-    }
-    
-    /* Agar Gambar Ekskul pas */
-    .object-fit-cover {
-        object-fit: cover;
-    }
+    .card { border-radius: 8px !important; }
+    .hover-zoom { transition: transform 0.4s ease; }
+    .card:hover .hover-zoom { transform: scale(1.08); }
+    .object-fit-cover { object-fit: cover; }
 </style>
 
 
@@ -542,44 +547,44 @@
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 1">
+                                    <img src="<?= base_url('assets/img/guru1.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 1">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Yuhana Kristin</h6>
-                                    <small class="fw-bold text-warning">Matematika</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 2">
+                                    <img src="<?= base_url('assets/img/guru2.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 2">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Budi Santoso</h6>
-                                    <small class="fw-bold text-warning">B. Indonesia</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 3">
+                                    <img src="<?= base_url('assets/img/guru3.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 3">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Siti Aminah</h6>
-                                    <small class="fw-bold text-warning">Biologi</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 4">
+                                    <img src="<?= base_url('assets/img/guru4.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 4">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Rahmat Hidayat</h6>
-                                    <small class="fw-bold text-warning">Informatika</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
@@ -591,99 +596,49 @@
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 5">
+                                    <img src="<?= base_url('assets/img/guru5.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 5">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Agus Setiawan</h6>
-                                    <small class="fw-bold text-warning">Penjaskes</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 6">
+                                    <img src="<?= base_url('assets/img/guru6.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 6">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Dewi Lestari</h6>
-                                    <small class="fw-bold text-warning">B. Inggris</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 7">
+                                    <img src="<?= base_url('assets/img/guru7.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 7">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Rina Wati</h6>
-                                    <small class="fw-bold text-warning">Kimia</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-6 mb-3">
                             <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
                                 <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 8">
+                                    <img src="<?= base_url('assets/img/guru8.png') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 8">
                                 </div>
                                 <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Joko Anwar</h6>
-                                    <small class="fw-bold text-warning">Seni Budaya</small>
+                                    <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;">Nama</h6>
+                                    <small class="fw-bold text-warning">Peran/Jabatan</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-3 col-6 mb-3">
-                            <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
-                                <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 9">
-                                </div>
-                                <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Lestari Puji</h6>
-                                    <small class="fw-bold text-warning">Fisika</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6 mb-3">
-                            <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
-                                <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 10">
-                                </div>
-                                <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Doni Tata</h6>
-                                    <small class="fw-bold text-warning">Sejarah</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6 mb-3">
-                            <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
-                                <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 11">
-                                </div>
-                                <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Eka Putri</h6>
-                                    <small class="fw-bold text-warning">PAI</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-6 mb-3">
-                            <div class="card border-0 shadow h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
-                                <div style="height: 320px; overflow: hidden;">
-                                    <img src="<?= base_url('assets/img/guru1.jpg') ?>" class="w-100 h-100 transition-zoom" style="object-fit: cover;" alt="Guru 12">
-                                </div>
-                                <div class="position-absolute bottom-0 start-50 translate-middle-x w-85 mb-3 bg-white rounded-3 shadow-sm text-center p-2" style="z-index: 2; width: 85%;">
-                                    <h6 class="fw-bold mb-1 text-dark" style="font-size: 14px;">Fajar Nugraha</h6>
-                                    <small class="fw-bold text-warning">Sosiologi</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#guruCarousel" data-bs-slide="prev" style="width: 5%; left: -20px;">
@@ -697,11 +652,15 @@
         </div>
         
         <div class="text-center mt-2">
-            <a href="<?= base_url('dashboard/guru') ?>" class="btn bg-white text-dark fw-bold shadow px-4 py-2 me-3" style="min-width: 180px; border-radius: 5px;">
-                Tenaga Pendidik
+            <a href="<?= base_url('dashboard/guru') ?>" 
+               class="btn bg-white fw-bold shadow px-4 py-2 me-3" 
+               style="min-width: 130px; border-radius: 5px; color: #102a43;">
+                Guru
             </a>
             
-            <a href="<?= base_url('dashboard/karyawan') ?>" class="btn bg-white text-dark fw-bold shadow px-4 py-2" style="min-width: 180px; border-radius: 5px;">
+            <a href="<?= base_url('dashboard/karyawan') ?>" 
+               class="btn bg-white fw-bold shadow px-4 py-2" 
+               style="min-width: 180px; border-radius: 5px; color: #102a43;">
                 Staff/Karyawan
             </a>
         </div>

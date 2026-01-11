@@ -71,27 +71,30 @@ class Dashboard extends CI_Controller {
     }
 
     public function karyawan($page = 1)
-    {
-        // 1. Ambil Data dari File JSON
-        // Pastikan path filenya benar: assets/data/staff.json
-        $json_data = file_get_contents(FCPATH . 'assets/data/staff.json');
-        $semua_staff = json_decode($json_data, true);
+{
+    $data['is_home'] = false;
+    $data['current_page'] = $page;
+    $per_page = 12; // 4 kolom x 3 baris = 12 data per halaman
 
-        // 2. Logika Pagination
-        $data['is_home'] = false;
-        $data['current_page'] = $page;
-        $per_page = 8; // Menampilkan 8 orang per halaman
-
-        // Hitung total halaman & potong data
-        $data['total_pages'] = ceil(count($semua_staff) / $per_page);
-        $offset = ($page - 1) * $per_page;
-        $data['data_staff'] = array_slice($semua_staff, $offset, $per_page);
-        
-        // 3. Tampilkan View
-        $this->load->view('layout/header', $data);
-        $this->load->view('karyawan_view', $data);
-        $this->load->view('layout/footer');
+    $path = FCPATH . 'assets/data/staff.json';
+    
+    if (file_exists($path)) {
+        $json_data = file_get_contents($path);
+        $semua_staff = json_decode($json_data, true) ?: [];
+    } else {
+        $semua_staff = [];
     }
+
+    $total_items = count($semua_staff); //
+    $data['total_pages'] = ceil($total_items / $per_page); //
+    
+    $offset = ($page - 1) * $per_page;
+    $data['data_staff'] = array_slice($semua_staff, $offset, $per_page); //
+    
+    $this->load->view('layout/header', $data);
+    $this->load->view('karyawan_view', $data);
+    $this->load->view('layout/footer');
+}
 
     public function berita($page = 1, $filter_tahun = 'semua')
     {
@@ -241,26 +244,33 @@ class Dashboard extends CI_Controller {
 
     // --- Pastikan kode ini ada di dalam class Dashboard ---
 
-    public function ekskul()
-    {
-        $data['is_home'] = false;
-        
-        // Load Data JSON
-        $json_path = FCPATH . 'assets/data/ekskul.json';
-        $data['ekskul'] = [];
-        
-        if (file_exists($json_path)) {
-            $json_data = file_get_contents($json_path);
-            $data['ekskul'] = json_decode($json_data, true);
-        } else {
-            // Data cadangan jika JSON error
-            $data['ekskul'] = [];
-        }
-
-        $this->load->view('layout/header', $data);
-        $this->load->view('ekskul_view', $data); // Pastikan nama file view ini 'ekskul_view.php'
-        $this->load->view('layout/footer');
+    public function ekskul($page = 1)
+{
+    // Mengambil data dari file JSON
+    $path = FCPATH . 'assets/data/ekskul.json';
+    if (file_exists($path)) {
+        $json_data = file_get_contents($path);
+        $semua_ekskul = json_decode($json_data, true) ?: [];
+    } else {
+        $semua_ekskul = [];
     }
+
+    $per_page = 9; // Grid 3x3
+    $total_items = count($semua_ekskul);
+    $total_pages = ceil($total_items / $per_page);
+    
+    $offset = ($page - 1) * $per_page;
+    $data_limit = array_slice($semua_ekskul, $offset, $per_page);
+
+    $data['ekskul'] = $data_limit;
+    $data['current_page'] = $page;
+    $data['total_pages'] = $total_pages;
+    $data['is_home'] = false;
+
+    $this->load->view('layout/header', $data);
+    $this->load->view('ekskul_view', $data);
+    $this->load->view('layout/footer');
+}
 
     public function fasilitas()
     {

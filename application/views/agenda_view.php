@@ -24,34 +24,34 @@
         <div class="row">
 
             <div class="col-lg-3 mb-5">
-                <h6 class="fw-bold mb-4 text-dark">Arsip Agenda Akademik</h6>
+                <h5 class="fw-bold mb-4">Arsip Agenda</h5>
                 
                 <ul class="list-unstyled">
                     <li class="mb-3 pb-2 border-bottom border-dark">
                         <a href="<?= base_url('dashboard/agenda/1/semua') ?>" 
                            class="text-decoration-none d-block <?= ($selected_year == 'semua') ? 'fw-bold text-warning' : 'text-dark' ?>">
-                           Semua Agenda
+                            Semua Agenda
                         </a>
                     </li>
 
                     <li class="mb-3 pb-2 border-bottom border-dark">
                         <a href="<?= base_url('dashboard/agenda/1/2025') ?>" 
                            class="text-decoration-none d-block <?= ($selected_year == '2025') ? 'fw-bold text-warning' : 'text-dark' ?>">
-                           2025
+                            2025
                         </a>
                     </li>
                     
                     <li class="mb-3 pb-2 border-bottom border-dark">
                         <a href="<?= base_url('dashboard/agenda/1/2024') ?>" 
                            class="text-decoration-none d-block <?= ($selected_year == '2024') ? 'fw-bold text-warning' : 'text-dark' ?>">
-                           2024
+                            2024
                         </a>
                     </li>
                     
                     <li class="mb-3 pb-2 border-bottom border-dark">
                         <a href="<?= base_url('dashboard/agenda/1/2023') ?>" 
                            class="text-decoration-none d-block <?= ($selected_year == '2023') ? 'fw-bold text-warning' : 'text-dark' ?>">
-                           2023
+                            2023
                         </a>
                     </li>
                 </ul>
@@ -79,10 +79,10 @@
                         </h4>
                         
                         <small class="text-muted d-block mb-3">
-                            <i class="bi bi-calendar-event me-2"></i> <?= $agenda['tanggal'] ?>
+                            <i class="bi bi-calendar3 me-2"></i> <?= $agenda['tanggal'] ?>
                         </small>
 
-                        <p class="text-secondary" style="font-size: 14px; line-height: 1.6; text-align: justify;">
+                        <p class="text-dark" style="font-size: 14px; line-height: 1.6; text-align: justify;">
                             <?= $agenda['isi'] ?>
                         </p>
 
@@ -107,7 +107,7 @@
                                     <a class="page-link border <?= ($i == $current_page) ? 'border-0 fw-bold' : '' ?>" 
                                        href="<?= base_url('dashboard/agenda/'.$i.'/'.$selected_year) ?>"
                                        style="<?= ($i == $current_page) ? 'background-color: #e9ecef; color: black;' : 'color: #333;' ?>">
-                                       <?= $i ?>
+                                        <?= $i ?>
                                     </a>
                                 </li>
                             <?php endfor; ?>

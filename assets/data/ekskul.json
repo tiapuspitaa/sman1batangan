@@ -1,45 +1,108 @@
 [
     {
         "id": 1,
-        "nama": "PRAMUKA",
-        "deskripsi": "Kegiatan kepramukaan untuk membentuk karakter, kedisiplinan, dan jiwa kepemimpinan siswa.",
+        "nama": "PBB",
+        "deskripsi": "Melatih ketegasan, kekompakan tim, dan tata upacara bendera. Anggota dilatih kepemimpinan (leadership) dan mentalitas baja, serta dipersiapkan menjadi petugas upacara bendera di tingkat sekolah maupun daerah.",
         "kontak": "Pak Budi (0812-3456-7890)",
-        "gambar": "ekskul1.jpg"
+        "gambar": "PBB.jpg"
     },
     {
         "id": 2,
-        "nama": "BASKET",
-        "deskripsi": "Ekstrakurikuler bola basket melatih kerjasama tim, fisik, dan strategi permainan yang sportif.",
+        "nama": "ENGLISH CLUB",
+        "deskripsi": "Wadah bagi siswa untuk mengasah kemampuan speaking, writing, dan listening melalui aktivitas seru seperti debat, storytelling, speech, dan permainan interaktif. Mempersiapkan siswa menghadapi tantangan global dengan kemampuan bahasa Inggris yang mumpuni.",
         "kontak": "Bu Sinta (0899-8877-6655)",
-        "gambar": "ekskul2.jpg"
+        "gambar": "englishclub.jpg"
     },
     {
         "id": 3,
-        "nama": "PASKIBRA",
-        "deskripsi": "Pasukan pengibar bendera pusaka dengan kedisiplinan tinggi.",
+        "nama": "FUTSAL",
+        "deskripsi": "Ekstrakurikuler favorit untuk menyalurkan hobi sepak bola, melatih strategi permainan, dan mempererat solidaritas antar siswa. Rutin mengadakan latih tanding dan mengikuti turnamen antar pelajar.",
         "kontak": "Bu Ayu (0813-4567-8901)",
-        "gambar": "ekskul3.jpg"
+        "gambar": "futsal.jpg"
     },
     {
         
         "id": 4,
-        "nama": "PALANG MERAH REMAJA",
-        "deskripsi": "Palang Merah Remaja melatih keterampilan pertolongan pertama dan kepedulian sosial terhadap sesama.",
+        "nama": "TARI",
+        "deskripsi": "Mengembangkan bakat seni, keluwesan tubuh, dan apresiasi terhadap budaya. Siswa akan mempelajari berbagai koreografi tari daerah dan kontemporer untuk dipentaskan dalam berbagai acara sekolah.",
         "kontak": "Pak Joko (0856-7890-1234)",
-        "gambar": "ekskul4.jpg"
+        "gambar": "tari.jpg"
     },
     {
         "id": 5,
-        "nama": "MUSIK",
-        "deskripsi": "Melatih agar keterampilan musik semakin meningkat.",
+        "nama": "PMR",
+        "deskripsi": "Memberikan pengetahuan tentang kesehatan, penanganan gawat darurat (PPGD), dan kesiapsiagaan bencana. Siswa dilatih menjadi relawan muda yang sigap, tanggap, dan peduli terhadap sesama.",
         "kontak": "Pak Ahmad (0821-1122-3344)",
-        "gambar": "ekskul5.jpg"
+        "gambar": "pmr.jpg"
     },
     {
         "id": 6,
-        "nama": "SENI TARI",
-        "deskripsi": "Melestarikan budaya tradisional melalui seni tari daerah.",
+        "nama": "PENCAK SILAT",
+        "deskripsi": "Mengajarkan teknik bela diri tradisional, seni gerak, serta menanamkan nilai-nilai luhur seperti kedisiplinan, sportivitas, dan persaudaraan. Siswa dipersiapkan untuk mengikuti berbagai kejuaraan silat, baik kategori tanding maupun seni.",
         "kontak": "Bu Rina (0877-6655-4433)",
-        "gambar": "ekskul6.jpg"
+        "gambar": "pencaksilat.jpg"
+    },
+    {
+        "id": 7,
+        "nama": "BADMINTON",
+        "deskripsi": "Fokus pada pengembangan teknik dasar hingga lanjutan, stamina fisik, dan taktik permainan tunggal maupun ganda. Ekstrakurikuler ini bertujuan mencetak bibit-bibit atlet yang siap mengharumkan nama sekolah.",
+        "kontak": "Bu Tian (0877-6655-4433)",
+        "gambar": "badminton.jpg"
+    },
+    {
+        "id": 8,
+        "nama": "BACA TULIS QUR'AN",
+        "deskripsi": "Membimbing siswa dalam membaca, menulis, dan menghafal Al-Qur'an (Tahfidz). Bertujuan membentuk generasi yang berakhlak mulia dan menanamkan nilai-nilai religius dalam kehidupan sehari-hari.",
+        "kontak": "Pak Arga (0877-6655-4433)",
+        "gambar": "quran.jpg"
+    },
+    {
+        "id": 9,
+        "nama": "TAEKWONDO",
+        "deskripsi": "Melatih teknik tendangan, poomsae (jurus), dan kyorugi (tarung). Selain fisik, ekskul ini menanamkan mental juara, rasa hormat, dan kepercayaan diri yang tinggi pada setiap anggotanya.",
+        "kontak": "Pak Budi (0877-6655-4433)",
+        "gambar": "taekwondoo.jpg"
+    },
+    {
+        "id": 10,
+        "nama": "PADUAN SUARA",
+        "deskripsi": "Melatih teknik vokal, pernapasan, pembacaan notasi, dan kekompakan suara (Sopran, Alto, Tenor, Bass). Tim paduan suara menjadi andalan untuk mengisi acara seremonial sekolah dan kompetisi seni suara.",
+        "kontak": "Bu Riska (0877-6655-4433)",
+        "gambar": "paduansuara.jpg"
+    },
+    {
+        "id": 11,
+        "nama": "TEATER",
+        "deskripsi": "Tempat mengeksplorasi seni peran, penulisan naskah, hingga manajemen panggung. Ekskul ini sangat baik untuk mengembangkan empati, artikulasi bicara, dan keberanian tampil di depan umum.",
+        "kontak": "Bu Jesika (0877-6655-4433)",
+        "gambar": "teater.jpg"
+    },
+    {
+        "id": 12,
+        "nama": "MUSIK",
+        "deskripsi": "Wadah bagi siswa yang mahir atau ingin belajar alat musik (gitar, keyboard, drum, dll) dan vokal. Fokus pada kolaborasi band untuk menciptakan pertunjukan musik yang menghibur.",
+        "kontak": "Pak Yohanes (0877-6655-4433)",
+        "gambar": "musik.jpg"
+    },
+    {
+        "id": 13,
+        "nama": "VOLI",
+        "deskripsi": "Mengajarkan teknik dasar passing, serve, block, dan smash. Membangun kerjasama tim yang solid dan mental kompetitif untuk menghadapi pertandingan persahabatan maupun turnamen.",
+        "kontak": "Pak Eko (0877-6655-4433)",
+        "gambar": "voli.jpg"
+    },
+    {
+        "id": 14,
+        "nama": "JURNALISTIK",
+        "deskripsi": "Mengajarkan dasar-dasar peliputan, teknik wawancara, fotografi jurnalistik, dan pengelolaan media sekolah (Mading/Website). Cocok untuk siswa yang gemar bercerita dan ingin menjadi content creator.",
+        "kontak": "Bu Fuji (0877-6655-4433)",
+        "gambar": "jurnalistik.jpg"
+    },
+    {
+        "id": 15,
+        "nama": "DRUMBAND",
+        "deskripsi": "Melatih keharmonisan alat musik tiup, perkusi, dan color guard. Menjadi ikon kemeriahan dan kebanggaan sekolah dalam parade, karnaval, maupun acara besar lainnya.",
+        "kontak": "Bu Nani (0877-6655-4433)",
+        "gambar": "drumband.jpg"
     }
 ]

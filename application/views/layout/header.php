@@ -39,8 +39,14 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
         
         .navbar-brand img { width: 55px; height: auto; }
         .navbar-brand-text {
-            font-weight: 700; font-size: 24px; letter-spacing: 1px;
-            margin-left: 12px; color: white; position: relative; top: -2px;
+            font-weight: 700; 
+            font-size: 24px; 
+            letter-spacing: 1px;
+            margin-left: 12px; 
+            color: white; 
+            position: relative; 
+            /* Menaikkan posisi teks agar sejajar proporsional dengan logo */
+            top: -15px; 
         }
 
         /* --- DROPDOWN UTAMA --- */
@@ -84,14 +90,13 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
                 display: block; 
             }
             
-            /* REVISI: Menghilangkan garis/border bawaan bootstrap */
             .dropdown-submenu > a::after {
                 content: "\F285"; /* Icon Chevron Right */
                 font-family: "bootstrap-icons";
                 float: right;
                 font-size: 12px;
                 margin-top: 4px;
-                border: none !important; /* <--- INI SOLUSINYA (Hilangkan garis) */
+                border: none !important;
             }
         }
 
@@ -107,7 +112,6 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
                 margin-left: 20px;
                 border-left: 2px solid rgba(255,255,255,0.3);
             }
-            /* Hilangkan panah aneh di mobile juga jika ada */
             .dropdown-submenu > a::after { border: none !important; } 
         }
 
@@ -151,11 +155,10 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
             <li class="dropdown-submenu position-relative">
                 <a class="dropdown-item dropdown-toggle" href="#">Staff</a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="<?= base_url('dashboard/guru') ?>">Tenaga Pendidik</a></li>
+                    <li><a class="dropdown-item" href="<?= base_url('dashboard/guru') ?>">Guru</a></li>
                     <li><a class="dropdown-item" href="<?= base_url('dashboard/karyawan') ?>">Staff/Karyawan</a></li>
                 </ul>
             </li>
-
           </ul>
         </li>
 
