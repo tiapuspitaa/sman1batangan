@@ -564,7 +564,7 @@
         <div class="text-center mt-5">
             <a href="<?= base_url('dashboard/ekskul') ?>"
                class="btn px-4 py-2 fw-bold shadow-sm"
-               style="color: #fff; background-color: #102a43; border-radius: 6px; font-size: 14px;">
+               style="color: #fff; background-color: #102a43; border-radius: 10px;">
                Tampilkan Semua Ekstrakurikuler
             </a>
         </div>
