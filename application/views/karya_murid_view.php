@@ -22,7 +22,7 @@
             
             <div class="col-md-6 col-lg-3">
                 
-                <div class="card border-0 h-100 shadow-sm rounded-4 overflow-hidden">
+                <div class="card border-0 h-100 shadow-sm rounded-3 overflow-hidden">
                     
                     <div style="height: 250px; overflow: hidden;">
                         <img src="<?= base_url('assets/img/' . $item['gambar']) ?>" 

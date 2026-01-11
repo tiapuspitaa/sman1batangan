@@ -289,7 +289,7 @@
 
         </div>
 
-        <<div class="text-center mt-5">
+        <div class="text-center mt-5">
             <a href="<?= base_url('dashboard/prestasi') ?>"
              class="btn btn-light px-4 py-2 fw-bold shadow-sm" 
                style="color: #fff; background-color: #102a43;">
@@ -312,92 +312,132 @@
         <div class="row g-4">
             
             <div class="col-lg-3 col-md-6">
-                <div class="card border-0 h-100 shadow-sm rounded-0">
+                <div class="card border-0 h-100 shadow-sm rounded-3 overflow-hidden karya-home-card">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi1.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Puisi">
+                        <img src="<?= base_url('assets/img/publikasi1.jpg') ?>" 
+                             class="w-100 h-100 object-fit-cover hover-zoom" 
+                             alt="Karya Murid">
                     </div>
+
                     <div class="card-body p-3" style="background-color: #e9ecef;">
                         <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Benang Merah Sepanggal Detik
                         </h6>
+
                         <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
-                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Tia Puspita Sari/ XII IPA</span>
+
+                        <div class="d-flex align-items-start mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i>
+                            <span>Tia Puspita Sari/ XII IPA</span>
                         </div>
+
                         <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Puisi</span>
+                            <i class="bi bi-box-seam-fill me-2 fs-6"></i>
+                            <span>Puisi</span>
                         </div>
+
                         <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
-                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>13 November 2025</span>
+                            <i class="bi bi-calendar3 me-2 fs-6"></i>
+                            <span>13 November 2025</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <div class="card border-0 h-100 shadow-sm rounded-0">
+                <div class="card border-0 h-100 shadow-sm rounded-3 overflow-hidden karya-home-card">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi2.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Lukisan">
+                        <img src="<?= base_url('assets/img/publikasi2.jpg') ?>" 
+                             class="w-100 h-100 object-fit-cover hover-zoom" 
+                             alt="Karya Murid">
                     </div>
+
                     <div class="card-body p-3" style="background-color: #e9ecef;">
                         <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Pemandangan Gunung Malam Hari
                         </h6>
+
                         <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
-                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Luvina Agita Rani/ XI IPS</span>
+
+                        <div class="d-flex align-items-start mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i>
+                            <span>Luvina Agita Rani/ XI IPS</span>
                         </div>
+
                         <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Lukisan</span>
+                            <i class="bi bi-box-seam-fill me-2 fs-6"></i>
+                            <span>Lukisan</span>
                         </div>
+
                         <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
-                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>4 Desember 2025</span>
+                            <i class="bi bi-calendar3 me-2 fs-6"></i>
+                            <span>4 Desember 2025</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <div class="card border-0 h-100 shadow-sm rounded-0">
+                <div class="card border-0 h-100 shadow-sm rounded-3 overflow-hidden karya-home-card">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi3.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Maket">
+                        <img src="<?= base_url('assets/img/publikasi3.jpg') ?>" 
+                             class="w-100 h-100 object-fit-cover hover-zoom" 
+                             alt="Karya Murid">
                     </div>
+
                     <div class="card-body p-3" style="background-color: #e9ecef;">
                         <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Maket Rumah Kayu Minimalis
                         </h6>
+
                         <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
-                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Axel Candra Adi/ X</span>
+
+                        <div class="d-flex align-items-start mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i>
+                            <span>Axel Candra Adi/ X</span>
                         </div>
+
                         <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Kerajinan</span>
+                            <i class="bi bi-box-seam-fill me-2 fs-6"></i>
+                            <span>Kerajinan</span>
                         </div>
+
                         <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
-                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>25 Desember 2025</span>
+                            <i class="bi bi-calendar3 me-2 fs-6"></i>
+                            <span>25 Desember 2025</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <div class="card border-0 h-100 shadow-sm rounded-0">
+                <div class="card border-0 h-100 shadow-sm rounded-3 overflow-hidden karya-home-card">
                     <div style="height: 250px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/publikasi4.jpg') ?>" class="w-100 h-100 object-fit-cover hover-zoom" alt="Poster">
+                        <img src="<?= base_url('assets/img/publikasi4.jpg') ?>" 
+                             class="w-100 h-100 object-fit-cover hover-zoom" 
+                             alt="Karya Murid">
                     </div>
+
                     <div class="card-body p-3" style="background-color: #e9ecef;">
                         <h6 class="fw-bold text-uppercase mb-2" style="color: #102a43; font-size: 14px; min-height: 40px;">
                             Hari Guru Nasional
                         </h6>
+
                         <hr class="my-2" style="border-top: 1px solid #102a43; opacity: 0.3;">
-                        <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-person-fill me-2 fs-6"></i> <span>Akbar Ibrahim/ XII IPA</span>
+
+                        <div class="d-flex align-items-start mb-2 text-dark" style="font-size: 12px;">
+                            <i class="bi bi-person-fill me-2 fs-6"></i>
+                            <span>Akbar Ibrahim/ XII IPA</span>
                         </div>
+
                         <div class="d-flex align-items-center mb-2 text-dark" style="font-size: 12px;">
-                            <i class="bi bi-collection-fill me-2 fs-6"></i> <span>Poster</span>
+                            <i class="bi bi-box-seam-fill me-2 fs-6"></i>
+                            <span>Poster</span>
                         </div>
+
                         <div class="d-flex align-items-center text-dark" style="font-size: 12px;">
-                            <i class="bi bi-calendar3 me-2 fs-6"></i> <span>25 November 2025</span>
+                            <i class="bi bi-calendar3 me-2 fs-6"></i>
+                            <span>25 November 2025</span>
                         </div>
                     </div>
                 </div>
@@ -408,13 +448,21 @@
         <div class="text-center mt-5">
             <a href="<?= base_url('dashboard/karya') ?>"
              class="btn btn-light px-4 py-2 fw-bold shadow-sm"
-               style="color: #102a43;">
+               style="color: #102a43; border-radius: 10px;">
                Tampilkan Semua Karya
             </a>
         </div>
 
     </div>
 </div>
+
+<style>
+    .hover-zoom { transition: transform 0.3s ease; }
+    .card:hover .hover-zoom { transform: scale(1.05); }
+    /* Efek angkat card saat hover agar serupa dengan card guru dan karya murid */
+    .karya-home-card { transition: transform 0.3s ease; }
+    .karya-home-card:hover { transform: translateY(-5px); }
+</style>
 
 
 <div class="py-5 bg-white">
