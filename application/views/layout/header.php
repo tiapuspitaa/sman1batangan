@@ -153,7 +153,7 @@ $is_dashboard = ($segmen1 == '' || ($segmen1 == 'dashboard' && $segmen2 == ''));
             <li><a class="dropdown-item" href="<?= base_url('dashboard/struktur') ?>">Struktur Organisasi</a></li>
             
             <li class="dropdown-submenu position-relative">
-                <a class="dropdown-item dropdown-toggle" href="#">Staff</a>
+                <a class="dropdown-item dropdown-toggle" href="#">Guru & Staff</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="<?= base_url('dashboard/guru') ?>">Guru</a></li>
                     <li><a class="dropdown-item" href="<?= base_url('dashboard/karyawan') ?>">Staff/Karyawan</a></li>

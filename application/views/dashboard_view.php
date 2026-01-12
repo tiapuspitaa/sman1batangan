@@ -151,7 +151,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm rounded-3">
                     <div style="height: 220px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/berita2.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Berita 2">
+                        <img src="<?= base_url('assets/img/beritaa2.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Berita 2">
                     </div>
                     <div class="card-body p-4 d-flex flex-column">
                         <h5 class="card-title fw-bold text-uppercase mb-3" style="font-size: 16px; line-height: 1.5;">
@@ -178,7 +178,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm rounded-3">
                     <div style="height: 220px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/berita3.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Berita 3">
+                        <img src="<?= base_url('assets/img/beritaa3.jpg') ?>" class="card-img-top w-100 h-100" style="object-fit: cover;" alt="Berita 3">
                     </div>
                     <div class="card-body p-4 d-flex flex-column">
                         <h5 class="card-title fw-bold text-uppercase mb-3" style="font-size: 16px; line-height: 1.5;">
