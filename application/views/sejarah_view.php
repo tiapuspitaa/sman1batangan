@@ -21,7 +21,7 @@
         
         <div class="mb-5 text-center">
             <div class="rounded overflow-hidden shadow-sm d-inline-block" style="max-width: 100%;">
-                <img src="<?= base_url('assets/img/sejarah.jpg') ?>" 
+                <img src="<?= base_url('assets/img/sejarahvisi.png') ?>" 
                      alt="Gedung SMA Negeri 1 Batangan" 
                      class="img-fluid"
                      style="max-height: 450px; width: 100%; object-fit: cover;">

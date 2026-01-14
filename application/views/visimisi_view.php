@@ -21,7 +21,7 @@
         
         <div class="mb-5 text-center">
             <div class="rounded overflow-hidden shadow-sm d-inline-block" style="max-width: 100%;">
-                <img src="<?= base_url('assets/img/sejarah.jpg') ?>" 
+                <img src="<?= base_url('assets/img/sejarahvisi.png') ?>" 
                      alt="Gedung SMA Negeri 1 Batangan" 
                      class="img-fluid"
                      style="max-height: 450px; width: 100%; object-fit: cover;">
@@ -30,7 +30,7 @@
 
         <div class="text-center mb-5">
             <h4 class="fw-bold mb-3" style="color: #102a43;">VISI</h4>
-            <p class="text-dark" style="font-size: 18px; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+            <p class="text-dark" style="font-size: 16px; max-width: 800px; margin: 0 auto; line-height: 1.6;">
                 Membangun generasi Emas yang berimtaq, beriptek, berbudaya dan peduli lingkungan
             </p>
         </div>
@@ -38,7 +38,7 @@
         <div class="text-center mb-5">
             <h4 class="fw-bold mb-3" style="color: #102a43;">MISI</h4>
             
-            <div class="d-inline-block text-start" style="max-width: 850px; font-size: 18px; line-height: 1.8; color: #000;">
+            <div class="d-inline-block text-start" style="max-width: 850px; font-size: 16px; line-height: 1.8; color: #000;">
                 <ol class="ps-3 mb-0">
                     <li class="mb-2 ps-2">Mengembangkan potensi warga sekolah menjadi Warga Negara Indonesia yang beriman dan bertaqwa kepada Tuhan Yang Maha Esa.</li>
                     <li class="mb-2 ps-2">Mengembangkan potensi warga sekolah dalam menyelenggarakan pendidikan yang berbasis ilmu pengetahuan dan teknologi.</li>

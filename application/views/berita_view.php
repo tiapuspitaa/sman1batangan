@@ -33,23 +33,16 @@
                     </li>
 
                     <li class="mb-3 pb-2 border-bottom border-dark">
+                        <a href="<?= base_url('dashboard/berita/1/2026') ?>" 
+                           class="text-decoration-none d-block <?= ($selected_year == '2026') ? 'fw-bold text-warning' : 'text-dark' ?>">
+                           2026
+                        </a>
+                    </li>
+                    
+                    <li class="mb-3 pb-2 border-bottom border-dark">
                         <a href="<?= base_url('dashboard/berita/1/2025') ?>" 
                            class="text-decoration-none d-block <?= ($selected_year == '2025') ? 'fw-bold text-warning' : 'text-dark' ?>">
                            2025
-                        </a>
-                    </li>
-                    
-                    <li class="mb-3 pb-2 border-bottom border-dark">
-                        <a href="<?= base_url('dashboard/berita/1/2024') ?>" 
-                           class="text-decoration-none d-block <?= ($selected_year == '2024') ? 'fw-bold text-warning' : 'text-dark' ?>">
-                           2024
-                        </a>
-                    </li>
-                    
-                    <li class="mb-3 pb-2 border-bottom border-dark">
-                        <a href="<?= base_url('dashboard/berita/1/2023') ?>" 
-                           class="text-decoration-none d-block <?= ($selected_year == '2023') ? 'fw-bold text-warning' : 'text-dark' ?>">
-                           2023
                         </a>
                     </li>
                 </ul>

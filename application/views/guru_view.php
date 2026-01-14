@@ -14,66 +14,97 @@
 
 <div class="py-5 bg-white">
     <div class="container">
-        
-        <div class="row g-4">
-            <?php foreach($data_guru as $guru): ?>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card border-0 shadow-sm h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
-                    
-                    <div style="height: 320px; overflow: hidden;">
-                        <img src="<?= base_url('assets/img/' . $guru['foto']) ?>" 
-                             class="w-100 h-100 object-fit-cover transition-zoom" 
-                             alt="<?= $guru['nama'] ?>"
-                             onerror="this.onerror=null; this.src='https://via.placeholder.com/300x400?text=Foto+Guru';">
-                    </div>
+        <div class="text-center mb-5">
+            <h3 class="fw-bold text-uppercase" style="color: #102a43;">Daftar Tenaga Pendidik(Guru)</h3>
+            <div style="width: 60px; height: 3px; background-color: #ffc107; margin: 10px auto;"></div>
+        </div>
 
-                    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3 bg-white rounded-3 shadow-sm text-center p-2" 
-                         style="z-index: 2; width: 85%; opacity: 0.95;">
-                        <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;"><?= $guru['nama'] ?></h6>
-                        <small class="fw-bold text-warning text-uppercase" style="font-size: 11px; letter-spacing: 0.5px;">
-                            <?= $guru['mapel'] ?>
-                        </small>
+        <div class="row g-4">
+            <?php if(!empty($data_guru)): ?>
+                <?php foreach($data_guru as $guru): ?>
+                
+                <div class="col-6 col-md-4 col-lg-3">
+                    
+                    <div class="card border-0 shadow-sm h-100 overflow-hidden position-relative rounded-3 group-hover-effect">
+                        
+                        <div style="height: 320px; overflow: hidden;">
+                            <img src="<?= base_url('assets/img/' . $guru['foto']) ?>" 
+                                 class="w-100 h-100 object-fit-cover transition-zoom" 
+                                 alt="<?= $guru['nama'] ?>"
+                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/300x400?text=Foto+Guru';">
+                        </div>
+
+                        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3 bg-white rounded-3 shadow-sm text-center p-2" 
+                             style="z-index: 2; width: 85%; opacity: 0.95;">
+                            <h6 class="fw-bold mb-1" style="font-size: 14px; color: #102a43;"><?= $guru['nama'] ?></h6>
+                            <small class="fw-bold text-warning text-uppercase" style="font-size: 11px; letter-spacing: 0.5px;">
+                                <?= $guru['mapel'] ?>
+                            </small>
+                        </div>
+
                     </div>
 
                 </div>
-            </div>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <div class="col-12 text-center py-5">
+                    <p class="text-muted">Belum ada data guru.</p>
+                </div>
+            <?php endif; ?>
         </div>
 
+        <?php if($total_pages > 1): ?>
         <div class="d-flex justify-content-center mt-5">
             <nav aria-label="Page navigation">
                 <ul class="pagination">
+                    
                     <?php if($current_page > 1): ?>
-                    <li class="page-item">
-                        <a class="page-link border text-dark" href="<?= base_url('dashboard/guru/'.($current_page-1)) ?>">Prev</a>
+                    <li class="page-item mx-1">
+                        <a class="page-link border bg-white text-dark rounded-0 px-3 py-2" href="<?= base_url('dashboard/guru/'.($current_page-1)) ?>">Prev</a>
                     </li>
                     <?php endif; ?>
 
-                    <?php for($i = 1; $i <= 2; $i++): ?>
-                        <li class="page-item <?= ($i == $current_page) ? 'active' : '' ?>">
-                            <a class="page-link border <?= ($i == $current_page) ? 'border-0 fw-bold' : '' ?>" 
+                    <?php for($i = 1; $i <= $total_pages; $i++): ?>
+                        <?php 
+                            $bg_color = ($i == $current_page) ? 'background-color: #102a43; color: white;' : 'background-color: white; color: #333;';
+                        ?>
+                        <li class="page-item mx-1">
+                            <a class="page-link border rounded-0 px-3 py-2 fw-bold" 
                                href="<?= base_url('dashboard/guru/'.$i) ?>"
-                               style="<?= ($i == $current_page) ? 'background-color: #e9ecef; color: black;' : 'color: #333;' ?>">
+                               style="<?= $bg_color ?> border: 1px solid #dee2e6 !important;">
                                <?= $i ?>
                             </a>
                         </li>
                     <?php endfor; ?>
 
-                    <?php if($current_page < 2): ?>
-                    <li class="page-item">
-                        <a class="page-link border text-dark" href="<?= base_url('dashboard/guru/'.($current_page+1)) ?>">Next</a>
+                    <?php if($current_page < $total_pages): ?>
+                    <li class="page-item mx-1">
+                        <a class="page-link border bg-white text-dark rounded-0 px-3 py-2" href="<?= base_url('dashboard/guru/'.($current_page+1)) ?>">Next</a>
                     </li>
                     <?php endif; ?>
+                    
                 </ul>
             </nav>
         </div>
+        <?php endif; ?>
 
     </div>
 </div>
 
 <style>
+    /* 1. Import Font Roboto dari Google */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+    /* 2. Terapkan Font ke seluruh body dan heading */
+    body, h1, h2, h3, h4, h5, h6, .card, .btn, .nav-link {
+        font-family: 'Roboto', sans-serif !important;
+    }
+
+    /* Efek Zoom Gambar */
     .transition-zoom { transition: transform 0.5s ease; }
     .group-hover-effect:hover .transition-zoom { transform: scale(1.05); }
+    
+    /* Hilangkan shadow biru saat klik pagination */
     .page-link:focus { box-shadow: none; }
 </style>
 

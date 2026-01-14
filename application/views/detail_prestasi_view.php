@@ -100,11 +100,11 @@ $item = isset($prestasi) ? $prestasi : [];
 
                         <!-- Deskripsi -->
                         <h5 class="fw-bold mb-3" style="color: #102a43;">Deskripsi Kegiatan</h5>
-                        <p class="text-secondary" style="font-size: 1.1rem; line-height: 1.8; text-align: justify;">
+                        <p class="text-dark" style="font-size: 16px; line-height: 1.8; text-align: justify;">
                             <?= $item['deskripsi'] ?? 'Tidak ada deskripsi tersedia.' ?>
                         </p>
                         
-                        <p class="text-secondary mt-3" style="font-size: 1.1rem; line-height: 1.8; text-align: justify;">
+                        <p class="text-dark mt-3" style="font-size: 16px; line-height: 1.8; text-align: justify;">
                             Pencapaian ini merupakan hasil kerja keras dan dedikasi yang luar biasa. Semoga prestasi ini dapat menjadi motivasi bagi seluruh siswa SMA Negeri 1 Batangan untuk terus berkarya dan mengharumkan nama sekolah di kancah yang lebih tinggi.
                         </p>
 

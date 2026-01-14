@@ -49,52 +49,57 @@ class Dashboard extends CI_Controller {
 
     public function guru($page = 1)
     {
-        // 1. Ambil Data dari File JSON (Teknik Frontend)
-        // Pastikan path filenya benar: assets/data/guru.json
-        $json_data = file_get_contents(FCPATH . 'assets/data/guru.json');
-        $semua_guru = json_decode($json_data, true);
-
-        // 2. Logika Pagination (Tetap Sama)
         $data['is_home'] = false;
-        $data['current_page'] = $page;
-        $per_page = 12;
-
-        // Hitung total halaman & potong data
-        $data['total_pages'] = ceil(count($semua_guru) / $per_page);
-        $offset = ($page - 1) * $per_page;
-        $data['data_guru'] = array_slice($semua_guru, $offset, $per_page);
         
-        // 3. Tampilkan View
+        // 1. Load Data JSON
+        $json_path = FCPATH . 'assets/data/guru.json';
+        $semua_guru = [];
+        
+        if (file_exists($json_path)) {
+            $json_data = file_get_contents($json_path);
+            $semua_guru = json_decode($json_data, true);
+        }
+
+        // 2. Logika Pagination (3x4 = 12 item per halaman)
+        $per_page = 12; 
+        
+        $data['current_page'] = $page;
+        $data['total_pages'] = ceil(count($semua_guru) / $per_page);
+        
+        // Validasi halaman agar tidak error
+        if ($data['total_pages'] > 0 && $page > $data['total_pages']) {
+            $page = $data['total_pages']; 
+        }
+        
+        $offset = ($page - 1) * $per_page;
+        if ($offset < 0) $offset = 0;
+
+        // Ambil data sesuai halaman (Slice array)
+        $data['data_guru'] = array_slice($semua_guru, $offset, $per_page);
+
+        // 3. Load View
         $this->load->view('layout/header', $data);
         $this->load->view('guru_view', $data);
         $this->load->view('layout/footer');
     }
 
-    public function karyawan($page = 1)
-{
-    $data['is_home'] = false;
-    $data['current_page'] = $page;
-    $per_page = 12; // 4 kolom x 3 baris = 12 data per halaman
+    // Di Controller Dashboard.php
+    public function karyawan()
+    {
+        $data['is_home'] = false;
+        $json_path = FCPATH . 'assets/data/staff.json'; // sesuaikan nama file json
+        
+        // Ambil SEMUA data
+        $data['data_staff'] = [];
+        if (file_exists($json_path)) {
+            $json_data = file_get_contents($json_path);
+            $data['data_staff'] = json_decode($json_data, true);
+        }
 
-    $path = FCPATH . 'assets/data/staff.json';
-    
-    if (file_exists($path)) {
-        $json_data = file_get_contents($path);
-        $semua_staff = json_decode($json_data, true) ?: [];
-    } else {
-        $semua_staff = [];
+        $this->load->view('layout/header', $data);
+        $this->load->view('karyawan_view', $data); // sesuaikan nama view
+        $this->load->view('layout/footer');
     }
-
-    $total_items = count($semua_staff); //
-    $data['total_pages'] = ceil($total_items / $per_page); //
-    
-    $offset = ($page - 1) * $per_page;
-    $data['data_staff'] = array_slice($semua_staff, $offset, $per_page); //
-    
-    $this->load->view('layout/header', $data);
-    $this->load->view('karyawan_view', $data);
-    $this->load->view('layout/footer');
-}
 
     public function berita($page = 1, $filter_tahun = 'semua')
     {

@@ -1,18 +1,11 @@
 [
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru1.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru2.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru3.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru4.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru5.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru6.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru7.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru8.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru9.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru10.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru11.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru12.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru13.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru14.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru15.png"},
-    {"nama": "Nama", "jabatan": "Peran/Jabatan", "foto": "guru16.png"}
+    {"nama": "Bekti Dwi kartiko,A.Md", "jabatan": "Bidang Sarpas", "foto": "staf1.png"},
+    {"nama": "Dyah Oktaviani,S.E", "jabatan": "Bidang Kesiswaan", "foto": "staf2.png"},
+    {"nama": "Eny Fauziwati,A.Md", "jabatan": "Agendaris", "foto": "staf3.png"},
+    {"nama": "Siti Isripah,S.Pd", "jabatan": "Plt.Kelapa Tata Usaha", "foto": "staf4.png"},
+    {"nama": "Shodiqin", "jabatan": "Administrasi Umum", "foto": "staf5.jpg"},
+    {"nama": "Sucik,S.Kom", "jabatan": "Bidang Kepegawaiann", "foto": "staf6.png"},
+    {"nama": "Sugiarto,A.md", "jabatan": "Bidang Operator", "foto": "staf7.png"},
+    {"nama": "Sumarno", "jabatan": "Administrasi Umum", "foto": "staf8.jpg"},
+    {"nama": "Ulin Nafi'ah,S.Ei", "jabatan": "Pustakawan", "foto": "staf9.png"}
 ]

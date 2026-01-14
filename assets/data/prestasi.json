@@ -1,52 +1,103 @@
 [
-    {
-        "judul": "Juara 1 Lomba Pencak Silat Nasional",
-        "tanggal": "21 Desember 2025",
-        "kategori": "Non-Akademik",
-        "juara": "Juara 1",
-        "tingkat": "Nasional",
-        "nama_siswa": "Ananda Rizky",
-        "deskripsi": "Meraih medali emas pada kejuaraan pencak silat antar pelajar tingkat nasional di Jakarta.",
-        "gambar": "prestasi1.jpg"
+  {
+    "judul": "Juara 2 Duta Genre Kabupaten Pati",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 2",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Dewi Anjani Putri",
+    "deskripsi": "Berhasil meraih Juara II Duta Genre Kabupaten Pati 2025 Putri.",
+    "gambar": "dewi_anjani_genre.jpg"
+  },
+  {
+    "judul": "Juara 3 Baca Puisi FLS2N",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 3",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Dewi Anjani",
+    "deskripsi": "Berhasil meraih Juara 3 Baca Puisi dalam ajang kejuaraan FLS2N SMA-SMK/Sederajat tingkat Kabupaten Pati.",
+    "gambar": "dewi_anjani_puisi.jpg"
+  },
+  {
+    "judul": "Juara 2 Best Talent Mas Duta Budaya",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 2",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Satrio Mahendra Purwa",
+    "deskripsi": "Siswa kelas X-1 yang berhasil meraih Juara 2 Best Talent Mas Duta Budaya pada Pemilihan Mas & Mbak Budaya Kab. Pati.",
+    "gambar": "satrio_mahendra.webp"
+  },
+  {
+    "judul": "Juara 2 Lomba Fotografi",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 2",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Restu Tri Wilasno",
+    "deskripsi": "Berhasil meraih juara 2 lomba fotografi Pati Government Autoshow 2025.",
+    "gambar": "prestasirestu.jpg"
+  },
+  {
+    "judul": "Juara 2 Taekwondo Under 49",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 2",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Wilda Suryaningsih",
+    "deskripsi": "Berhasil meraih Juara 2 Taekwondo Under 49 Tingkat Kabupaten Pati Tahun 2025.",
+    "gambar": "wilda_suryaningsih.jpg"
+  },
+  {
+    "judul": "Juara 2 Taekwondo Under 52",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 2",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Yuliana Puji",
+    "deskripsi": "Berhasil meraih Juara 2 Taekwondo Under 52 Tingkat Kabupaten Pati Tahun 2025.",
+    "gambar": "yuliana_puji.jpg"
+  },
+  {
+
+    "judul": "Juara Harapan 1 Lomba Karya Tulis Ilmiah",
+    "tanggal": "20 Agustus 2025",
+    "kategori": "Akademik",
+    "juara": "Harapan 1",
+    "tingkat": "Nasional",
+    "nama_siswa": "Dewi Lestari",
+    "deskripsi": "Inovasi pemanfaatan limbah kulit singkong sebagai bahan bakar alternatif ramah lingkungan.",
+    "gambar": "prestasi2.jpg"
     },
-    {
-        "judul": "Medali Perak Olimpiade Matematika (OSN)",
-        "tanggal": "10 November 2025",
-        "kategori": "Akademik",
-        "juara": "Juara 2",
-        "tingkat": "Provinsi",
-        "nama_siswa": "Siti Aisyah",
-        "deskripsi": "Berhasil menyelesaikan soal-soal tingkat tinggi dan meraih posisi kedua se-Jawa Tengah.",
-        "gambar": "prestasi2.jpg"
-    },
-    {
-        "judul": "Juara 1 Lomba Pidato Bahasa Inggris",
-        "tanggal": "15 Oktober 2025",
-        "kategori": "Akademik",
-        "juara": "Juara 1",
-        "tingkat": "Kabupaten",
-        "nama_siswa": "Budi Santoso",
-        "deskripsi": "Menampilkan pidato bertema lingkungan hidup dengan fasih dan penuh percaya diri.",
-        "gambar": "prestasi2.jpg"
-    },
-    {
-        "judul": "Juara 3 Futsal Pelajar Cup",
-        "tanggal": "05 September 2025",
-        "kategori": "Non-Akademik",
-        "juara": "Juara 3",
-        "tingkat": "Karesidenan",
-        "nama_siswa": "Tim Futsal SMABA",
-        "deskripsi": "Tim futsal sekolah berhasil menembus semifinal dan mengamankan posisi ketiga.",
-        "gambar": "prestasi2.jpg"
-    },
-    {
-        "judul": "Juara Harapan 1 Lomba Karya Tulis Ilmiah",
-        "tanggal": "20 Agustus 2025",
-        "kategori": "Akademik",
-        "juara": "Harapan 1",
-        "tingkat": "Nasional",
-        "nama_siswa": "Dewi Lestari",
-        "deskripsi": "Inovasi pemanfaatan limbah kulit singkong sebagai bahan bakar alternatif ramah lingkungan.",
-        "gambar": "prestasi2.jpg"
-    }
+  {
+    "judul": "Juara 1 Taekwondo Under 55",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 1",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Rihana Amalia",
+    "deskripsi": "Berhasil meraih Juara 1 Taekwondo Under 55 Tingkat Kabupaten Pati Tahun 2025.",
+    "gambar": "rihana_amalia.jpg"
+  },
+  {
+    "judul": "Seleksi PASKIBRA Kabupaten Pati",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Terpilih",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Trista Ayu Setyaningsih",
+    "deskripsi": "Berhasil terpilih dalam ajang seleksi Calon Pasukan Pengibar Bendera Pusaka (PASKIBRA) Kabupaten Pati Tahun 2025.",
+    "gambar": "trista_ayu.webp"
+  },
+  {
+    "judul": "Juara 1 Tolak Peluru POPDA",
+    "tanggal": "2025",
+    "kategori": "Non-Akademik",
+    "juara": "Juara 1",
+    "tingkat": "Kabupaten",
+    "nama_siswa": "Aurelia Septia A",
+    "deskripsi": "Berhasil meraih Juara 1 Tolak Peluru POPDA Atletik Tingkat Kabupaten Pati Tahun 2025.",
+    "gambar": "aurelia_septia.jpg"
+  }
 ]

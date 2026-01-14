@@ -1,65 +1,39 @@
 [
-    {
+     {
         "id": 1,
+        "judul": "UPACARA BENDERA HARI PERTAMA MASUK SEKOLAH",
+        "tanggal": "5 Januari 2026",
+        "isi": "SMA Negeri 1 Batangan menggelar upacara bendera pada hari pertama masuk sekolah setelah libur semester. Kegiatan ini dilaksanakan di lapangan sekolah dan diikuti oleh seluruh warga sekolah, mulai dari peserta didik, guru, hingga tenaga kependidikan.",
+        "gambar": "berita_hari_pertamamasuk.jpg"
+    },
+    {
+        "id": 2,
         "judul": "SERAH TERIMA JABATAN KEPALA SEKOLAH",
         "tanggal": "13 November 2025",
         "isi": "SMA Negeri 1 Batangan mengadakan acara Serah Terima Jabatan Kepala Sekolah pada Kamis, 13 November 2025. Suasana haru dan khidmat menyelimuti acara pisah sambut ini sebagai tanda dimulainya kepemimpinan baru untuk SMABA yang lebih maju.",
         "gambar": "berita1.png"
     },
     {
-        "id": 2,
-        "judul": "JUARA 1 LOMBA ROBOTIK NASIONAL",
-        "tanggal": "20 Oktober 2025",
-        "isi": "Tim Robotik SMABA kembali menorehkan prestasi gemilang dengan meraih Juara 1 pada ajang Robotik Nasional di Jakarta. Inovasi robot pemilah sampah pintar karya siswa SMABA berhasil memukau para juri nasional.",
-        "gambar": "beritaa2.jpg"
-    },
-    {
         "id": 3,
-        "judul": "SMABA MENUJU SEKOLAH ADIWIYATA NASIONAL",
-        "tanggal": "15 Februari 2025",
-        "isi": "Sebagai bentuk kepedulian terhadap lingkungan, seluruh warga sekolah melakukan aksi penanaman 1000 pohon di area sekitar sekolah. Gerakan ini merupakan langkah konkret dalam mewujudkan sekolah hijau yang berkelanjutan.",
-        "gambar": "beritaa3.jpg"
+        "judul": "PERINGATAN HARI PAHLAWAN 2025",
+        "tanggal": "11 November 2025",
+        "isi": "Dalam rangka memperingati Hari Pahlawan, SMA Negeri 1 Batangan mengadakan kegiatan Lomba Peragaan Busana. Kegiatan ini dilaksanakan di Lapangan Upacara SMA N 1 Batangan dan berlangsung dengan meriah serta penuh semangat nasionalisme.",
+        "gambar": "berita_hari_pahlawan.jpeg"
     },
     {
         "id": 4,
-        "judul": "PERINGATAN HARI GURU NASIONAL 2024",
-        "tanggal": "25 November 2024",
-        "isi": "Upacara peringatan Hari Guru Nasional tahun 2024 berlangsung meriah. Siswa memberikan kejutan berupa bunga dan penampilan drama musikal sebagai bentuk apresiasi atas dedikasi para guru dalam mendidik generasi bangsa.",
-        "gambar": "berita4.jpg"
+        "judul": "KREASI BUDAYA LOKAL",
+        "tanggal": "1-8 September 2025",
+        "isi": "SMA Negeri 1 Batangan melaksanakan proyek kolaborasi bertajuk “Kreasi Budaya Lokal: Pembuatan Batik Ciprat sebagai Upaya Pelestarian dan Pemberdayaan Ekonomi Kreatif”. Kegiatan ini diikuti oleh siswa kelas X dan XI",
+        "gambar": "beritakreasi.jpg"
     },
     {
         "id": 5,
-        "judul": "BAKTI SOSIAL DI DESA BINAAN",
-        "tanggal": "10 Agustus 2024",
-        "isi": "OSIS SMA Negeri 1 Batangan menyelenggarakan bakti sosial dengan membagikan sembako kepada warga kurang mampu di desa binaan. Kegiatan ini bertujuan untuk menumbuhkan rasa empati dan kepedulian sosial siswa.",
-        "gambar": "berita5.jpg"
-    },
-    {
-        "id": 6,
-        "judul": "MODERNISASI PERPUSTAKAAN: E-LIBRARY SMABA",
-        "tanggal": "10 Mei 2024",
-        "isi": "SMA Negeri 1 Batangan meluncurkan aplikasi perpustakaan digital. Kini siswa dapat meminjam dan membaca ribuan koleksi buku hanya melalui smartphone untuk meningkatkan literasi di era digital.",
-        "gambar": "berita6.jpg"
-    },
-    {
-        "id": 7,
-        "judul": "FIELD TRIP KE MUSEUM GEOLOGI",
-        "tanggal": "15 Mei 2023",
-        "isi": "Siswa kelas X melakukan kunjungan belajar ke Museum Geologi Bandung. Kegiatan ini bertujuan untuk memberikan pengalaman belajar nyata dan memperdalam pemahaman materi Geografi secara langsung di lapangan.",
-        "gambar": "berita7.jpg"
-    },
-    {
-        "id": 8,
-        "judul": "ALUMNI BERPRESTASI: LOLOS PERGURUAN TINGGI LUAR NEGERI",
-        "tanggal": "02 Februari 2023",
-        "isi": "Kabar membanggakan datang dari alumni SMABA yang berhasil mendapatkan beasiswa penuh untuk melanjutkan studi S1 di University of Melbourne, Australia. Prestasi ini menjadi motivasi bagi adik-adik kelas.",
-        "gambar": "berita8.jpg"
-    },
-    {
-        "id": 9,
-        "judul": "GELAR KARYA P5: BATIK PESISIR BATANGAN",
-        "tanggal": "15 Desember 2023",
-        "isi": "Melalui projek P5, siswa SMABA berhasil menciptakan motif batik khas pesisir. Karya-karya ini dipamerkan dalam festival budaya sekolah sebagai bentuk pelestarian kearifan lokal daerah Batangan.",
-        "gambar": "berita9.jpg"
+        "judul": "COLOR RUN SMAN 1 BATANGAN",
+        "tanggal": "15 Agustus 2025",
+        "isi": "SMA Negeri 1 Batangan menggelar kegiatan Color Run dalam rangka memperingati Hari Kemerdekaan Republik Indonesia. Kegiatan ini diikuti oleh seluruh peserta didik serta bapak dan ibu guru dan berlangsung meriah penuh semangat kebersamaan.",
+        "gambar": "beritacolorrun.jpeg"
     }
+    
+    
 ]
